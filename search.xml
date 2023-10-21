@@ -81,7 +81,7 @@ Hexo 的相关快捷指令可以去[[网站建设-网站建设中的重要概念
 <li>上传成功后来到 Github Page 查看，成品如下：<br><img src="/../photo/%E6%88%90%E6%88%90%E5%8A%9F.png" alt="成成功"><br>（PS：如果使用 Gitee 还需要在“服务”中开启 Gitee Page，并且还需要根据它的步骤进行身份认证，时间可能会比较久)</li>
 <li>点击 Setting -&gt; Page 即可查看自己的站点网址，Github 还有一个好东西就是<code>Enforce HTTPS</code>，可以强制执行 HTTPS 进行加密，具体往下翻就能看到。</li>
 </ol>
-<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>如果还有什么不懂的地方，欢迎在评论下方留言，我一般集中在周末一起回答。如果你觉得这篇文章对你有帮助，麻烦赞赏一下吧！你的留言鼓励是博主更新的最大动力，十分感谢！</p>
+<h1 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h1><p>如果还有什么不懂的地方，欢迎在评论下方留言，我一般集中在周末一起回答。如果你觉得这篇文章对你有帮助，麻烦赞赏一下吧！你的留言鼓励是博主更新的最大动力，十分感谢！</p>
 ]]></content>
       <categories>
         <category>网站建设</category>
