@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-21T04:56:54.328Z</updated>
+  <updated>2023-10-21T15:11:33.668Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -20,11 +20,11 @@
     <title>人性的善恶—历史上的中国与外国哲学家对人性的探求</title>
     <link href="http://example.com/2023/10/21/%E4%B9%A6%E6%91%98-%E4%BA%BA%E6%80%A7%E7%9A%84%E5%96%84%E6%81%B6/"/>
     <id>http://example.com/2023/10/21/%E4%B9%A6%E6%91%98-%E4%BA%BA%E6%80%A7%E7%9A%84%E5%96%84%E6%81%B6/</id>
-    <published>2023-10-21T05:04:33.530Z</published>
-    <updated>2023-10-21T04:56:54.328Z</updated>
+    <published>2023-10-21T15:11:53.176Z</published>
+    <updated>2023-10-21T15:11:33.668Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;人性的善恶&quot;&gt;&lt;a href=&quot;#人性的善恶&quot; class=&quot;headerlink&quot; title=&quot;人性的善恶&quot;&gt;&lt;/a&gt;人性的善恶&lt;/h1&gt;&lt;p&gt;人性问题，是从古至今诸子百家所关心和研究的问题。春秋战国时期，这个中国历史上思想最为繁荣、文化最为昌盛的时代，文人们的思想空前活跃，在不同学派百家争鸣的局面中，纷纷提出自己的观点，大体可概括为四种学说——性善论，性恶论，无善无恶论，有善有恶论。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;人性问题，是从古至今诸子百家所关心和研究的问题。春秋战国时期，这个中国历史上思想最为繁荣、文化最为昌盛的时代，文人们的思想空前活跃，在不同学派百家争鸣的局面中，纷纷提出自己的观点，大体可概括为四种学说——性善论，性恶论，无善无恶论，有善有恶论。&lt;/p&gt;
 &lt;p&gt;在儒家学派的《孟子》一书中以辩论形式表明了自己的态度：&lt;/p&gt;</summary>
     
     
@@ -43,16 +43,13 @@
     <link href="http://example.com/2023/10/20/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE-Hexo%E6%90%AD%E5%BB%BA/"/>
     <id>http://example.com/2023/10/20/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE-Hexo%E6%90%AD%E5%BB%BA/</id>
     <published>2023-10-19T16:00:00.000Z</published>
-    <updated>2023-10-21T04:56:54.328Z</updated>
+    <updated>2023-10-21T15:10:19.535Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;h2 id=&quot;关于主题&quot;&gt;&lt;a href=&quot;#关于主题&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;一些关于博客搭建的问题，不想看可以直接跳过，不影响后面的流程&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;关于主题&quot;&gt;&lt;a href=&quot;#关于主题&quot; class=&quot;headerlink&quot; title=&quot;关于主题&quot;&gt;&lt;/a&gt;关于主题&lt;/h2&gt;&lt;p&gt;我现在使用的主题就是使用Hexo+NexT主题搭建的，但是你也不一定需要使用和我一样的主题，hexo还是有很多其他好看的主题，例如butterfly等主题都可以供你选择，你可以在&lt;a href=&quot;https://hexo.io/themes/index.html&quot;&gt;Hexo的主题官网&lt;/a&gt;自行选择即可。我选择NexT主题是因为它本身比较简洁。当然，本基础教程&lt;strong&gt;是适用于所有主题的&lt;/strong&gt;，你只需要把安装NexT主题的部分换成你自己想要的主题即可。&lt;/p&gt;</summary>
     
     
     
@@ -98,14 +95,14 @@
   </entry>
   
   <entry>
-    <title>网站建设中的相关概念</title>
+    <title>网站建设中的相关概念｜元数据，快捷指令等建站必备概念</title>
     <link href="http://example.com/2023/10/04/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE-%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE%E4%B8%AD%E7%9A%84%E9%87%8D%E8%A6%81%E6%A6%82%E5%BF%B5/"/>
     <id>http://example.com/2023/10/04/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE-%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE%E4%B8%AD%E7%9A%84%E9%87%8D%E8%A6%81%E6%A6%82%E5%BF%B5/</id>
     <published>2023-10-04T15:11:00.000Z</published>
-    <updated>2023-10-21T04:58:56.373Z</updated>
+    <updated>2023-10-21T15:11:41.483Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;网站建设中的相关概念｜元数据，快捷指令等建站必备概念&quot;&gt;&lt;a href=&quot;#网站建设中的相关概念｜元数据，快捷指令等建站必备概念&quot; class=&quot;headerlink&quot; title=&quot;网站建设中的相关概念｜元数据，快捷指令等建站必备概念&quot;&gt;&lt;/a&gt;网站建设中的相关概念｜元数据，快捷指令等建站必备概念&lt;/h1&gt;&lt;h1 id=&quot;元数据类别&quot;&gt;&lt;a href=&quot;#元数据类别&quot; class=&quot;headerlink&quot; title=&quot;元数据类别&quot;&gt;&lt;/a&gt;元数据类别&lt;/h1&gt;&lt;table&gt;
+    <summary type="html">&lt;h1 id=&quot;元数据类别&quot;&gt;&lt;a href=&quot;#元数据类别&quot; class=&quot;headerlink&quot; title=&quot;元数据类别&quot;&gt;&lt;/a&gt;元数据类别&lt;/h1&gt;&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;名称&lt;/th&gt;
