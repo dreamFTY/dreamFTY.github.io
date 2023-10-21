@@ -1,46 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>拼搏的日子</title>
-    <url>/2023/10/15/%E6%89%93%E5%8D%A1-%E6%8B%BC%E6%90%8F%E5%90%91%E4%B8%8A%EF%BC%81/</url>
-    <content><![CDATA[<blockquote>
-<p>如果今天上午有制定规划，安排的的任务有及时完成，并且在一天过后没有留下什么遗憾的话，就可视为打卡成功.(PS：❤️表示成功，💘表示失败)</p>
-</blockquote>
-<table>
+    <title>网站建设中的相关概念｜元数据，快捷指令等建站必备概念</title>
+    <url>/2023/10/04/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE-%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE%E4%B8%AD%E7%9A%84%E9%87%8D%E8%A6%81%E6%A6%82%E5%BF%B5/</url>
+    <content><![CDATA[<h1 id="元数据类别"><a href="#元数据类别" class="headerlink" title="元数据类别"></a>元数据类别</h1><table>
 <thead>
 <tr>
-<th>打卡</th>
-<th>打卡</th>
-<th>打卡</th>
-<th>打卡</th>
-<th>打卡</th>
-<th>打卡</th>
-<th>打卡</th>
+<th>名称</th>
+<th>中文</th>
+<th>格式</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>2023-10-14</td>
-<td>2023-10-15</td>
-<td>2023-10-16</td>
-<td>2023-10-17</td>
-<td>2023-10-18</td>
-<td>2023-10-19</td>
-<td>2023-10-20</td>
+<td>title</td>
+<td>标题</td>
+<td>title:</td>
 </tr>
 <tr>
-<td>💘</td>
-<td>❤️</td>
-<td>💘</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>date</td>
+<td>发表日期</td>
+<td>date:</td>
+</tr>
+<tr>
+<td>tags</td>
+<td>标签</td>
+<td>tags: <br/>-</td>
+</tr>
+<tr>
+<td>categories</td>
+<td>分类</td>
+<td>categories: <br/>-</td>
+</tr>
+<tr>
+<td>description</td>
+<td>概要</td>
+<td>description:</td>
+</tr>
+<tr>
+<td>top</td>
+<td>置顶</td>
+<td>top: true<br />or<br />top: (数值)</td>
+</tr>
+<tr>
+<td>password</td>
+<td>文章密码</td>
+<td>password: (数值)</td>
+</tr>
+<tr>
+<td>updated</td>
+<td>更新日期</td>
+<td>updated: (日期)</td>
 </tr>
 </tbody></table>
+<span id="more"></span>
+<h2 id="快捷指令"><a href="#快捷指令" class="headerlink" title="快捷指令"></a>快捷指令</h2><h3 id="创建新文章"><a href="#创建新文章" class="headerlink" title="创建新文章"></a>创建新文章</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<h3 id="运行服务"><a href="#运行服务" class="headerlink" title="运行服务"></a>运行服务</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<p>可简写为<code>hexo s</code></p>
+<h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
+<p>可简写为<code>hexo g</code></p>
+<h3 id="提交至Page"><a href="#提交至Page" class="headerlink" title="提交至Page"></a>提交至Page</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+<p>可简写为<code>hexo d</code></p>
 ]]></content>
       <categories>
-        <category>打卡</category>
+        <category>网站建设</category>
       </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
   </entry>
   <entry>
     <title>人性的善恶—历史上的中国与外国哲学家对人性的探求</title>
@@ -115,74 +141,6 @@
       </categories>
       <tags>
         <tag>人性</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>网站建设中的相关概念｜元数据，快捷指令等建站必备概念</title>
-    <url>/2023/10/04/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE-%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE%E4%B8%AD%E7%9A%84%E9%87%8D%E8%A6%81%E6%A6%82%E5%BF%B5/</url>
-    <content><![CDATA[<h1 id="元数据类别"><a href="#元数据类别" class="headerlink" title="元数据类别"></a>元数据类别</h1><table>
-<thead>
-<tr>
-<th>名称</th>
-<th>中文</th>
-<th>格式</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>title</td>
-<td>标题</td>
-<td>title:</td>
-</tr>
-<tr>
-<td>date</td>
-<td>发表日期</td>
-<td>date:</td>
-</tr>
-<tr>
-<td>tags</td>
-<td>标签</td>
-<td>tags: <br/>-</td>
-</tr>
-<tr>
-<td>categories</td>
-<td>分类</td>
-<td>categories: <br/>-</td>
-</tr>
-<tr>
-<td>description</td>
-<td>概要</td>
-<td>description:</td>
-</tr>
-<tr>
-<td>top</td>
-<td>置顶</td>
-<td>top: true<br />or<br />top: (数值)</td>
-</tr>
-<tr>
-<td>password</td>
-<td>文章密码</td>
-<td>password: (数值)</td>
-</tr>
-<tr>
-<td>updated</td>
-<td>更新日期</td>
-<td>updated: (日期)</td>
-</tr>
-</tbody></table>
-<span id="more"></span>
-<h2 id="快捷指令"><a href="#快捷指令" class="headerlink" title="快捷指令"></a>快捷指令</h2><h3 id="创建新文章"><a href="#创建新文章" class="headerlink" title="创建新文章"></a>创建新文章</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<h3 id="运行服务"><a href="#运行服务" class="headerlink" title="运行服务"></a>运行服务</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-<p>可简写为<code>hexo s</code></p>
-<h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
-<p>可简写为<code>hexo g</code></p>
-<h3 id="提交至Page"><a href="#提交至Page" class="headerlink" title="提交至Page"></a>提交至Page</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
-<p>可简写为<code>hexo d</code></p>
-]]></content>
-      <categories>
-        <category>网站建设</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -276,5 +234,47 @@ Hexo 的相关快捷指令可以去[[网站建设-网站建设中的重要概念
         <tag>Hexo</tag>
         <tag>NexT</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>拼搏的日子</title>
+    <url>/2023/10/15/%E6%89%93%E5%8D%A1-%E6%8B%BC%E6%90%8F%E5%90%91%E4%B8%8A%EF%BC%81/</url>
+    <content><![CDATA[<blockquote>
+<p>如果今天上午有制定规划，安排的的任务有及时完成，并且在一天过后没有留下什么遗憾的话，就可视为打卡成功.(PS：❤️表示成功，💘表示失败)</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>打卡</th>
+<th>打卡</th>
+<th>打卡</th>
+<th>打卡</th>
+<th>打卡</th>
+<th>打卡</th>
+<th>打卡</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2023-10-14</td>
+<td>2023-10-15</td>
+<td>2023-10-16</td>
+<td>2023-10-17</td>
+<td>2023-10-18</td>
+<td>2023-10-19</td>
+<td>2023-10-20</td>
+</tr>
+<tr>
+<td>💘</td>
+<td>❤️</td>
+<td>💘</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>打卡</category>
+      </categories>
   </entry>
 </search>
