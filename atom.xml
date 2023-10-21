@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Dream&#39;s Blog</title>
+  
+  <subtitle>分享PPT技巧、编程学习和心得笔记</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-10-21T04:56:54.328Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Dream Fantasy</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>人性的善恶—历史上的中国与外国哲学家对人性的探求</title>
+    <link href="http://example.com/2023/10/21/%E4%B9%A6%E6%91%98-%E4%BA%BA%E6%80%A7%E7%9A%84%E5%96%84%E6%81%B6/"/>
+    <id>http://example.com/2023/10/21/%E4%B9%A6%E6%91%98-%E4%BA%BA%E6%80%A7%E7%9A%84%E5%96%84%E6%81%B6/</id>
+    <published>2023-10-21T05:04:33.530Z</published>
+    <updated>2023-10-21T04:56:54.328Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;人性的善恶&quot;&gt;&lt;a href=&quot;#人性的善恶&quot; class=&quot;headerlink&quot; title=&quot;人性的善恶&quot;&gt;&lt;/a&gt;人性的善恶&lt;/h1&gt;&lt;p&gt;人性问题，是从古至今诸子百家所关心和研究的问题。春秋战国时期，这个中国历史上思想最为繁荣、文化最为昌盛的时代，文人们的思想空前活跃，在不同学派百家争鸣的局面中，纷纷提出自己的观点，大体可概括为四种学说——性善论，性恶论，无善无恶论，有善有恶论。&lt;/p&gt;
+&lt;p&gt;在儒家学派的《孟子》一书中以辩论形式表明了自己的态度：&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="书摘" scheme="http://example.com/categories/%E4%B9%A6%E6%91%98/"/>
+    
+    <category term="历史" scheme="http://example.com/categories/%E4%B9%A6%E6%91%98/%E5%8E%86%E5%8F%B2/"/>
+    
+    
+    <category term="人性" scheme="http://example.com/tags/%E4%BA%BA%E6%80%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github搭建免费博客｜基础教程(一)：Hexo+NexT主题搭建｜全网最细致全面的教程（持续更新中）</title>
+    <link href="http://example.com/2023/10/20/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE-Hexo%E6%90%AD%E5%BB%BA/"/>
+    <id>http://example.com/2023/10/20/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE-Hexo%E6%90%AD%E5%BB%BA/</id>
+    <published>2023-10-19T16:00:00.000Z</published>
+    <updated>2023-10-21T04:56:54.328Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;h2 id=&quot;关于主题&quot;&gt;&lt;a href=&quot;#关于主题&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="网站建设" scheme="http://example.com/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
+    
+    <category term="基础教程" scheme="http://example.com/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+    <category term="NexT" scheme="http://example.com/tags/NexT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>拼搏的日子</title>
+    <link href="http://example.com/2023/10/15/%E6%89%93%E5%8D%A1-%E6%8B%BC%E6%90%8F%E5%90%91%E4%B8%8A%EF%BC%81/"/>
+    <id>http://example.com/2023/10/15/%E6%89%93%E5%8D%A1-%E6%8B%BC%E6%90%8F%E5%90%91%E4%B8%8A%EF%BC%81/</id>
+    <published>2023-10-14T16:00:00.000Z</published>
+    <updated>2023-10-21T04:56:54.328Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;如果今天上午有制定规划，安排的的任务有及时完成，并且在一天过后没有留下什么遗憾的话，就可视为打卡成功.(PS：❤️表示成功，💘表示失败)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;打卡&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="打卡" scheme="http://example.com/categories/%E6%89%93%E5%8D%A1/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>网站建设中的相关概念</title>
+    <link href="http://example.com/2023/10/04/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE-%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE%E4%B8%AD%E7%9A%84%E9%87%8D%E8%A6%81%E6%A6%82%E5%BF%B5/"/>
+    <id>http://example.com/2023/10/04/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE-%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE%E4%B8%AD%E7%9A%84%E9%87%8D%E8%A6%81%E6%A6%82%E5%BF%B5/</id>
+    <published>2023-10-04T15:11:00.000Z</published>
+    <updated>2023-10-21T04:58:56.373Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;网站建设中的相关概念｜元数据，快捷指令等建站必备概念&quot;&gt;&lt;a href=&quot;#网站建设中的相关概念｜元数据，快捷指令等建站必备概念&quot; class=&quot;headerlink&quot; title=&quot;网站建设中的相关概念｜元数据，快捷指令等建站必备概念&quot;&gt;&lt;/a&gt;网站建设中的相关概念｜元数据，快捷指令等建站必备概念&lt;/h1&gt;&lt;h1 id=&quot;元数据类别&quot;&gt;&lt;a href=&quot;#元数据类别&quot; class=&quot;headerlink&quot; title=&quot;元数据类别&quot;&gt;&lt;/a&gt;元数据类别&lt;/h1&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;名称&lt;/th&gt;
+&lt;th&gt;中文&lt;/th&gt;
+&lt;th&gt;格式&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;title&lt;/td&gt;
+&lt;td&gt;标题&lt;/td&gt;
+&lt;td&gt;title:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;date&lt;/td&gt;
+&lt;td&gt;发表日期&lt;/td&gt;
+&lt;td&gt;date:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tags&lt;/td&gt;
+&lt;td&gt;标签&lt;/td&gt;
+&lt;td&gt;tags: &lt;br/&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;categories&lt;/td&gt;
+&lt;td&gt;分类&lt;/td&gt;
+&lt;td&gt;categories: &lt;br/&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;description&lt;/td&gt;
+&lt;td&gt;概要&lt;/td&gt;
+&lt;td&gt;description:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;top&lt;/td&gt;
+&lt;td&gt;置顶&lt;/td&gt;
+&lt;td&gt;top: true&lt;br /&gt;or&lt;br /&gt;top: (数值)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;password&lt;/td&gt;
+&lt;td&gt;文章密码&lt;/td&gt;
+&lt;td&gt;password: (数值)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;updated&lt;/td&gt;
+&lt;td&gt;更新日期&lt;/td&gt;
+&lt;td&gt;updated: (日期)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;</summary>
+    
+    
+    
+    <category term="网站建设" scheme="http://example.com/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
+    
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
