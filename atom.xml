@@ -18,8 +18,8 @@
   
   <entry>
     <title>人性的善恶—历史上的中国与外国哲学家对人性的探求</title>
-    <link href="https://www.dreamfty.top/shu-zhai-ren-xing-de-shan-e.html"/>
-    <id>https://www.dreamfty.top/shu-zhai-ren-xing-de-shan-e.html</id>
+    <link href="https://www.dreamfty.top/posts/undefined.html"/>
+    <id>https://www.dreamfty.top/posts/undefined.html</id>
     <published>2023-10-21T15:11:53.176Z</published>
     <updated>2023-10-21T15:11:33.668Z</updated>
     
@@ -39,35 +39,9 @@
   </entry>
   
   <entry>
-    <title>Hexo+Github搭建免费博客｜基础教程(一)：Hexo+NexT主题搭建｜全网最细致全面的教程（持续更新中）</title>
-    <link href="https://www.dreamfty.top/wang-zhan-jian-she-hexo-ji-chu-jiao-cheng-yi.html"/>
-    <id>https://www.dreamfty.top/wang-zhan-jian-she-hexo-ji-chu-jiao-cheng-yi.html</id>
-    <published>2023-10-19T16:00:00.000Z</published>
-    <updated>2023-10-29T01:11:59.329Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;一些关于博客搭建的问题，不想看可以直接跳过，不影响后面的流程&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;关于主题&quot;&gt;&lt;a href=&quot;#关于主题&quot; class=&quot;headerlink&quot; title=&quot;关于主题&quot;&gt;&lt;/a&gt;关于主题&lt;/h2&gt;&lt;p&gt;我现在使用的主题就是使用Hexo+NexT主题搭建的，但是你也不一定需要使用和我一样的主题，hexo还是有很多其他好看的主题，例如butterfly等主题都可以供你选择，你可以在&lt;a href=&quot;https://hexo.io/themes/index.html&quot;&gt;Hexo的主题官网&lt;/a&gt;自行选择即可。我选择NexT主题是因为它本身比较简洁。当然，本基础教程&lt;strong&gt;是适用于所有主题的&lt;/strong&gt;，你只需要把安装NexT主题的部分换成你自己想要的主题即可。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="网站建设" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
-    
-    <category term="基础教程" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="Hexo" scheme="https://www.dreamfty.top/tags/Hexo/"/>
-    
-    <category term="NexT" scheme="https://www.dreamfty.top/tags/NexT/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo+Github搭建免费博客｜基础教程(二)：NexT 主题基本美化｜全网最细致全面的教程（持续更新中）</title>
-    <link href="https://www.dreamfty.top/wang-zhan-jian-she-hexo-ji-chu-jiao-cheng-er.html"/>
-    <id>https://www.dreamfty.top/wang-zhan-jian-she-hexo-ji-chu-jiao-cheng-er.html</id>
+    <link href="https://www.dreamfty.top/posts/undefined.html"/>
+    <id>https://www.dreamfty.top/posts/undefined.html</id>
     <published>2023-10-19T16:00:00.000Z</published>
     <updated>2023-10-29T00:43:40.130Z</updated>
     
@@ -95,9 +69,35 @@
   </entry>
   
   <entry>
+    <title>Hexo+Github搭建免费博客｜基础教程(一)：Hexo+NexT主题搭建｜全网最细致全面的教程（持续更新中）</title>
+    <link href="https://www.dreamfty.top/posts/undefined.html"/>
+    <id>https://www.dreamfty.top/posts/undefined.html</id>
+    <published>2023-10-19T16:00:00.000Z</published>
+    <updated>2023-10-29T01:11:59.329Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;一些关于博客搭建的问题，不想看可以直接跳过，不影响后面的流程&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;关于主题&quot;&gt;&lt;a href=&quot;#关于主题&quot; class=&quot;headerlink&quot; title=&quot;关于主题&quot;&gt;&lt;/a&gt;关于主题&lt;/h2&gt;&lt;p&gt;我现在使用的主题就是使用Hexo+NexT主题搭建的，但是你也不一定需要使用和我一样的主题，hexo还是有很多其他好看的主题，例如butterfly等主题都可以供你选择，你可以在&lt;a href=&quot;https://hexo.io/themes/index.html&quot;&gt;Hexo的主题官网&lt;/a&gt;自行选择即可。我选择NexT主题是因为它本身比较简洁。当然，本基础教程&lt;strong&gt;是适用于所有主题的&lt;/strong&gt;，你只需要把安装NexT主题的部分换成你自己想要的主题即可。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网站建设" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
+    
+    <category term="基础教程" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Hexo" scheme="https://www.dreamfty.top/tags/Hexo/"/>
+    
+    <category term="NexT" scheme="https://www.dreamfty.top/tags/NexT/"/>
+    
+  </entry>
+  
+  <entry>
     <title>周末拼搏的日子</title>
-    <link href="https://www.dreamfty.top/da-qia-pin-bo-xiang-shang.html"/>
-    <id>https://www.dreamfty.top/da-qia-pin-bo-xiang-shang.html</id>
+    <link href="https://www.dreamfty.top/posts/undefined.html"/>
+    <id>https://www.dreamfty.top/posts/undefined.html</id>
     <published>2023-10-14T16:00:00.000Z</published>
     <updated>2023-10-29T00:43:40.130Z</updated>
     
@@ -126,8 +126,8 @@
   
   <entry>
     <title>网站建设中的相关概念｜元数据，快捷指令等建站必备概念</title>
-    <link href="https://www.dreamfty.top/wang-zhan-jian-she-wang-zhan-jian-she-zhong-de-chong-yao-gai-nian.html"/>
-    <id>https://www.dreamfty.top/wang-zhan-jian-she-wang-zhan-jian-she-zhong-de-chong-yao-gai-nian.html</id>
+    <link href="https://www.dreamfty.top/posts/undefined.html"/>
+    <id>https://www.dreamfty.top/posts/undefined.html</id>
     <published>2023-10-04T15:11:00.000Z</published>
     <updated>2023-10-29T01:00:24.726Z</updated>
     
