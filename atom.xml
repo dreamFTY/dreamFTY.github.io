@@ -39,11 +39,41 @@
   </entry>
   
   <entry>
-    <title>Hexo+Github搭建免费博客｜基础教程(一)：Hexo+NexT主题搭建｜全网最细致全面的教程（持续更新中）</title>
-    <link href="https://www.dreamfty.top/wang-zhan-jian-she-hexo-da-jian.html"/>
-    <id>https://www.dreamfty.top/wang-zhan-jian-she-hexo-da-jian.html</id>
+    <title>Hexo+Github搭建免费博客｜基础教程(二)：NexT 主题基本美化｜全网最细致全面的教程（持续更新中）</title>
+    <link href="https://www.dreamfty.top/wang-zhan-jian-she-hexo-ji-chu-jiao-cheng-er.html"/>
+    <id>https://www.dreamfty.top/wang-zhan-jian-she-hexo-ji-chu-jiao-cheng-er.html</id>
     <published>2023-10-19T16:00:00.000Z</published>
-    <updated>2023-10-21T15:40:21.349Z</updated>
+    <updated>2023-10-29T00:43:40.130Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在[[网站建设-Hexo基础教程（一）]]&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="网站建设" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
+    
+    <category term="基础教程" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Hexo" scheme="https://www.dreamfty.top/tags/Hexo/"/>
+    
+    <category term="NexT" scheme="https://www.dreamfty.top/tags/NexT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github搭建免费博客｜基础教程(一)：Hexo+NexT主题搭建｜全网最细致全面的教程（持续更新中）</title>
+    <link href="https://www.dreamfty.top/wang-zhan-jian-she-hexo-ji-chu-jiao-cheng-yi.html"/>
+    <id>https://www.dreamfty.top/wang-zhan-jian-she-hexo-ji-chu-jiao-cheng-yi.html</id>
+    <published>2023-10-19T16:00:00.000Z</published>
+    <updated>2023-10-29T00:43:40.130Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
@@ -65,11 +95,11 @@
   </entry>
   
   <entry>
-    <title>拼搏的日子</title>
+    <title>周末拼搏的日子</title>
     <link href="https://www.dreamfty.top/da-qia-pin-bo-xiang-shang.html"/>
     <id>https://www.dreamfty.top/da-qia-pin-bo-xiang-shang.html</id>
     <published>2023-10-14T16:00:00.000Z</published>
-    <updated>2023-10-21T04:56:54.328Z</updated>
+    <updated>2023-10-29T00:43:40.130Z</updated>
     
     
       
@@ -99,7 +129,7 @@
     <link href="https://www.dreamfty.top/wang-zhan-jian-she-wang-zhan-jian-she-zhong-de-chong-yao-gai-nian.html"/>
     <id>https://www.dreamfty.top/wang-zhan-jian-she-wang-zhan-jian-she-zhong-de-chong-yao-gai-nian.html</id>
     <published>2023-10-04T15:11:00.000Z</published>
-    <updated>2023-10-21T15:11:41.483Z</updated>
+    <updated>2023-10-29T00:43:40.130Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;元数据类别&quot;&gt;&lt;a href=&quot;#元数据类别&quot; class=&quot;headerlink&quot; title=&quot;元数据类别&quot;&gt;&lt;/a&gt;元数据类别&lt;/h1&gt;&lt;table&gt;
@@ -123,12 +153,12 @@
 &lt;tr&gt;
 &lt;td&gt;tags&lt;/td&gt;
 &lt;td&gt;标签&lt;/td&gt;
-&lt;td&gt;tags: &lt;br/&gt;-&lt;/td&gt;
+&lt;td&gt;tags: &lt;br&gt;-&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;categories&lt;/td&gt;
 &lt;td&gt;分类&lt;/td&gt;
-&lt;td&gt;categories: &lt;br/&gt;-&lt;/td&gt;
+&lt;td&gt;categories: &lt;br&gt;-&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;description&lt;/td&gt;
@@ -138,7 +168,7 @@
 &lt;tr&gt;
 &lt;td&gt;top&lt;/td&gt;
 &lt;td&gt;置顶&lt;/td&gt;
-&lt;td&gt;top: true&lt;br /&gt;or&lt;br /&gt;top: (数值)&lt;/td&gt;
+&lt;td&gt;top: true&lt;br&gt;or&lt;br&gt;top: (数值)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;password&lt;/td&gt;
@@ -149,6 +179,21 @@
 &lt;td&gt;updated&lt;/td&gt;
 &lt;td&gt;更新日期&lt;/td&gt;
 &lt;td&gt;updated: (日期)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;author&lt;/td&gt;
+&lt;td&gt;文章作者&lt;/td&gt;
+&lt;td&gt;author :&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mathjax&lt;/td&gt;
+&lt;td&gt;数学公式支持(需要在主题的 _config.yml 文件中开启)&lt;/td&gt;
+&lt;td&gt;mathjax:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;keywords&lt;/td&gt;
+&lt;td&gt;文章关键词&lt;/td&gt;
+&lt;td&gt;keywords:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;</summary>
     
