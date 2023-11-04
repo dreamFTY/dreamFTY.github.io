@@ -6,7 +6,7 @@
   <link href="https://www.dreamfty.top/atom.xml" rel="self"/>
   
   <link href="https://www.dreamfty.top/"/>
-  <updated>2023-10-29T02:21:23.333Z</updated>
+  <updated>2023-11-04T04:10:52.669Z</updated>
   <id>https://www.dreamfty.top/</id>
   
   <author>
@@ -21,11 +21,10 @@
     <link href="https://www.dreamfty.top/posts/9408.html"/>
     <id>https://www.dreamfty.top/posts/9408.html</id>
     <published>2023-10-29T02:21:22.293Z</published>
-    <updated>2023-10-29T02:21:23.333Z</updated>
+    <updated>2023-11-04T04:10:52.669Z</updated>
     
     
-    <summary type="html">&lt;p&gt;人性问题，是从古至今诸子百家所关心和研究的问题。春秋战国时期，这个中国历史上思想最为繁荣、文化最为昌盛的时代，文人们的思想空前活跃，在不同学派百家争鸣的局面中，纷纷提出自己的观点，大体可概括为四种学说——性善论，性恶论，无善无恶论，有善有恶论。&lt;/p&gt;
-&lt;p&gt;在儒家学派的《孟子》一书中以辩论形式表明了自己的态度：&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;人性问题，是从古至今诸子百家所关心和研究的问题。春秋战国时期，这个中国历史上思想最为繁荣、文化最为昌盛的时代，文人们的思想空前活跃，在不同学派百家争鸣的局面中，纷纷&lt;/p&gt;</summary>
     
     
     
@@ -43,13 +42,13 @@
     <link href="https://www.dreamfty.top/posts/27998.html"/>
     <id>https://www.dreamfty.top/posts/27998.html</id>
     <published>2023-10-19T16:00:00.000Z</published>
-    <updated>2023-10-29T02:21:23.334Z</updated>
+    <updated>2023-11-04T04:10:01.781Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;一些关于博客搭建的问题，不想看可以直接跳过，不影响后面的流程&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;关于主题&quot;&gt;&lt;a href=&quot;#关于主题&quot; class=&quot;headerlink&quot; title=&quot;关于主题&quot;&gt;&lt;/a&gt;关于主题&lt;/h2&gt;&lt;p&gt;我现在使用的主题就是使用Hexo+NexT主题搭建的，但是你也不一定需要使用和我一样的主题，hexo还是有很多其他好看的主题，例如butterfly等主题都可以供你选择，你可以在&lt;a href=&quot;https://hexo.io/themes/index.html&quot;&gt;Hexo的主题官网&lt;/a&gt;自行选择即可。我选择NexT主题是因为它本身比较简洁。当然，本基础教程&lt;strong&gt;是适用于所有主题的&lt;/strong&gt;，你只需要把安装NexT主题的部分换成你自己想要的主题即可。&lt;/p&gt;</summary>
+&lt;h2 id=&quot;关于主题&quot;&gt;&lt;a href=&quot;#关于主题&quot; class=&quot;headerlink&quot; title=&quot;关于主题&quot;&gt;&lt;/a&gt;关于主题&lt;/h2&gt;&lt;p&gt;我现在使用的主题就是使用Hexo+NexT主题搭建的，但是你也不一定需要使用和我一样的主题，hexo&lt;/p&gt;</summary>
     
     
     
@@ -69,17 +68,13 @@
     <link href="https://www.dreamfty.top/posts/56587.html"/>
     <id>https://www.dreamfty.top/posts/56587.html</id>
     <published>2023-10-19T16:00:00.000Z</published>
-    <updated>2023-10-29T02:21:23.335Z</updated>
+    <updated>2023-11-04T04:10:13.078Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;在[[网站建设-Hexo基础教程（一）]]&lt;/p&gt;
-</summary>
-        
-      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;在&lt;a href=&quot;https://www.dreamfty.top/posts/27998.html&quot;&gt;基础教程(一)：Hexo+NexT主题搭建&lt;/a&gt;中我们已经学会了如何使用 Github 搭建 Hexo 博客了，那么在接下来的这篇文章中我将会介绍一下 Hexo 的基础使用与美化教程&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;注意事项&quot;&gt;&lt;a href=&quot;#注意事项&quot; class=&quot;headerlink&quot; title=&quot;注意事项&quot;&gt;&lt;/a&gt;注意事项&lt;/h2&gt;&lt;h3 id=&quot;配置文件的位置&quot;&gt;&lt;a href=&quot;#配置文件的位置&quot; class=&quot;headerlink&quot; title=&quot;配置文件的位置&quot;&gt;&lt;/a&gt;配置文件的位置&lt;/h3&gt;&lt;p&gt;接下来我将会以&lt;code&gt;站点配置文件&lt;/code&gt;和&lt;code&gt;主题配置文件&lt;/code&gt;来说明两个需要使用的文件，如下：&lt;/p&gt;</summary>
     
     
     
@@ -99,73 +94,10 @@
     <link href="https://www.dreamfty.top/posts/9921.html"/>
     <id>https://www.dreamfty.top/posts/9921.html</id>
     <published>2023-10-04T15:11:00.000Z</published>
-    <updated>2023-10-29T02:21:23.335Z</updated>
+    <updated>2023-11-04T04:10:35.375Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;元数据类别&quot;&gt;&lt;a href=&quot;#元数据类别&quot; class=&quot;headerlink&quot; title=&quot;元数据类别&quot;&gt;&lt;/a&gt;元数据类别&lt;/h1&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;名称&lt;/th&gt;
-&lt;th&gt;中文&lt;/th&gt;
-&lt;th&gt;格式&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td&gt;title&lt;/td&gt;
-&lt;td&gt;标题&lt;/td&gt;
-&lt;td&gt;title:&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;date&lt;/td&gt;
-&lt;td&gt;发表日期&lt;/td&gt;
-&lt;td&gt;date:&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;tags&lt;/td&gt;
-&lt;td&gt;标签&lt;/td&gt;
-&lt;td&gt;tags: &lt;br&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;categories&lt;/td&gt;
-&lt;td&gt;分类&lt;/td&gt;
-&lt;td&gt;categories: &lt;br&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;description&lt;/td&gt;
-&lt;td&gt;概要&lt;/td&gt;
-&lt;td&gt;description:&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;top&lt;/td&gt;
-&lt;td&gt;置顶&lt;/td&gt;
-&lt;td&gt;top: true&lt;br&gt;or&lt;br&gt;top: (数值)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;password&lt;/td&gt;
-&lt;td&gt;文章密码&lt;/td&gt;
-&lt;td&gt;password: (数值)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;updated&lt;/td&gt;
-&lt;td&gt;更新日期&lt;/td&gt;
-&lt;td&gt;updated: (日期)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;author&lt;/td&gt;
-&lt;td&gt;文章作者&lt;/td&gt;
-&lt;td&gt;author :&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;mathjax&lt;/td&gt;
-&lt;td&gt;数学公式支持(需要在主题的 _config.yml 文件中开启)&lt;/td&gt;
-&lt;td&gt;mathjax:&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;keywords&lt;/td&gt;
-&lt;td&gt;文章关键词&lt;/td&gt;
-&lt;td&gt;keywords:&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;元数据类别&quot;&gt;&lt;a href=&quot;#元数据类别&quot; class=&quot;headerlink&quot; title=&quot;元数据类别&quot;&gt;&lt;/a&gt;元数据类别&lt;/h1&gt;</summary>
     
     
     
