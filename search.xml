@@ -1,6 +1,188 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hexo+Github搭建免费博客｜基础教程(一)：Hexo+NexT主题搭建｜全网最细致全面的教程（持续更新中）</title>
+    <url>/posts/27998.html</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote>
+<p>一些关于博客搭建的问题，不想看可以直接跳过，不影响后面的流程</p>
+</blockquote>
+<h2 id="关于主题"><a href="#关于主题" class="headerlink" title="关于主题"></a>关于主题</h2><p>我现在使用的主题就是使用Hexo+NexT主题搭建的，但是你也不一定需要使用和我一样的主题，hexo<span id="more"></span>还是有很多其他好看的主题，例如butterfly等主题都可以供你选择，你可以在<a href="https://hexo.io/themes/index.html">Hexo的主题官网</a>自行选择即可。我选择NexT主题是因为它本身比较简洁。当然，本基础教程<strong>是适用于所有主题的</strong>，你只需要把安装NexT主题的部分换成你自己想要的主题即可。</p>
+<h2 id="关于Github-Page与Gitee-Page"><a href="#关于Github-Page与Gitee-Page" class="headerlink" title="关于Github Page与Gitee Page"></a>关于Github Page与Gitee Page</h2><p>为什么要选择Github Page，而不是用Gitee，主要原因如下：</p>
+<ul>
+<li>Gitee Page 的开通需要身份证认证，不仅要拍身份证正反面，还要有手持身份证的照片，甚至还有不通过的可能，总之就是很麻烦</li>
+<li>Gitee似乎是有5G空间限制的，虽然说纯打字基本是不可能用完的，但是如果你要使用<strong>相对路径</strong>来储存文章图片的话，那可能就不好说了</li>
+<li>Gitee不知道能否绑定<em>自定义域名</em>，反正Github是可以的。如果你看不惯 XXX.github.io的域名话，可以自行去阿里云域名，腾讯云域名等官网购买自己想要的域名，当然这就会造成额外的花费了，不想花钱的话也可以不购买。关于“如何绑定自定义域名”的方法我会单独写篇文章来细致讲解，这里就不过多赘述，毕竟标题是搭建<strong>免费博客</strong></li>
+<li>Gitee毕竟是国内的，管的比较严，你只能是发合法的，健康的个人博客。当然这并不等于用Github就可以乱来了，也是会被封掉的。<br>当然，如果你会使用Github Page，那么你也自然会使用Gitee Page了，二者的步骤其实大同小异，并且如果你想从Github转到Gitee，在接下来的教学中我也会介绍方法。</li>
+</ul>
+<h1 id="如何搭建Hexo"><a href="#如何搭建Hexo" class="headerlink" title="如何搭建Hexo"></a>如何搭建Hexo</h1><blockquote>
+<p>接下来就进入我们的正式环节了，不用担心自己没有编程基础，跟着做你就肯定能学会。</p>
+</blockquote>
+<h2 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h2><h3 id="注册Github账号"><a href="#注册Github账号" class="headerlink" title="注册Github账号"></a><strong>注册Github账号</strong></h3><p><span id="网络"></span></p>
+<p>进入GitHub官网并注册账号，不会的可以看<a href="https://blog.csdn.net/m0_67906358/article/details/128808210">这篇教程</a>，官网网址如下：<a href="https://github.com/">https://github.com</a><br>（PS：如果无法进入Github，可以下载<a href="https://steampp.net/">Watt Tooklkit</a>进行网络加速，如果担心隐私问题请谨慎使用，本人无法保障你的信息安全）</p>
+<h3 id="下载Git"><a href="#下载Git" class="headerlink" title="下载Git"></a>下载Git</h3><p>下载并安装 Git，官网地址： <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
+<h3 id="下载Nodjs"><a href="#下载Nodjs" class="headerlink" title="下载Nodjs"></a>下载Nodjs</h3><p>下载安装 Nodejs：<a href="http://nodejs.cn/download/">http://nodejs.cn/download/</a></p>
+<h2 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h2><ol>
+<li>在键盘上按下<code>win+R</code>键，输入<code>cmd</code>（大小写均可）</li>
+</ol>
+<p><img src="/../photo/%E8%BF%90%E8%A1%8C.png" alt="运行"></p>
+<ol start="2">
+<li>在弹出的窗口中输入<figure class="highlight ada"><table><tbody><tr><td class="code"><pre><span class="line">git <span class="comment">--version</span></span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight applescript"><table><tbody><tr><td class="code"><pre><span class="line">npm <span class="built_in">version</span></span><br></pre></td></tr></tbody></table></figure>
+只要不报错就行<br><img src="/../photo/CMD.png" alt="CMD"></li>
+</ol>
+<h3 id="安装与调试"><a href="#安装与调试" class="headerlink" title="安装与调试"></a>安装与调试</h3><ol>
+<li>更换 npm 源<br>在刚刚弹出的窗口中输入代码，并等待安装完成（可直接复制，下同）<figure class="highlight cmake"><table><tbody><tr><td class="code"><pre><span class="line">npm <span class="keyword">install</span> -g hexo  </span><br></pre></td></tr></tbody></table></figure></li>
+</ol>
+<p>如果出现报错的情况，例如：</p>
+<figure class="highlight coffeescript"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">npm</span> ERR! code ENOTFOUND</span><br><span class="line"><span class="built_in">npm</span> ERR! errno ENOTFOUND</span><br><span class="line">......</span><br><span class="line"><span class="built_in">npm</span> ERR! network ’proxy‘ config <span class="keyword">is</span> set properly.  See: ’<span class="built_in">npm</span> help config‘</span><br></pre></td></tr></tbody></table></figure>
+<p>这主要是网络的原因，毕竟服务器在国外，下面是解决方案：</p>
+<ul>
+<li>如果不是淘宝的镜像，使用taobao镜像，然后跳过下一个方案。<figure class="highlight arduino"><table><tbody><tr><td class="code"><pre><span class="line">npm config set registry https:<span class="comment">//registry.npm.taobao.org</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li>如果现在是taobao的镜像，使用下面的<figure class="highlight tcl"><table><tbody><tr><td class="code"><pre><span class="line">npm config <span class="keyword">set</span> <span class="keyword">registry</span> <span class="keyword">http</span>://<span class="keyword">registry</span>.cnpmjs.org/</span><br></pre></td></tr></tbody></table></figure>
+如果不清楚现在用的是哪个，用第一个解决方案。</li>
+</ul>
+<h2 id="博客搭建"><a href="#博客搭建" class="headerlink" title="博客搭建"></a>博客搭建</h2><ol>
+<li>在电脑任意位置新建一个文件夹，文件名随意。这个文件夹将用于储存你网站的静态文件。路径最好是全英文的，如果发现路径中存在“此电脑”“本地磁盘”的中文名，不用想着去修改，它的实际路径其实是英文的<br>  <img src="/../photo/%E8%B7%AF%E5%BE%841.png" alt="路径1"></li>
+</ol>
+<p><img src="/../photo/%E8%B7%AF%E5%BE%842.png" alt="路径2"></p>
+<ol start="2">
+<li>右键鼠标，打开<code>Git Bash Here</code>，并依次输入以下命令：（如遇<a href="#%E7%BD%91%E7%BB%9C">网络问题</a>见上）</li>
+</ol>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">hexo init 想创建的二级文件名</span><br><span class="line"><span class="built_in">cd</span> 二级文件名</span><br><span class="line">npm install</span><br></pre></td></tr></tbody></table></figure>
+<p><img src="/../photo/GItbash.png" alt="GItbash"></p>
+<p><img src="/../photo/bash1.png" alt="bash1"></p>
+<p><img src="/../photo/bash2.png" alt="bash2"></p>
+<ol start="3">
+<li>到这时候，我们 Hexo 的的本地搭建可以说是基本完成了，接着再输入以下命令：<figure class="highlight ebnf"><table><tbody><tr><td class="code"><pre><span class="line"><span class="attribute">hexo g</span></span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight ebnf"><table><tbody><tr><td class="code"><pre><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></tbody></table></figure>
+Hexo 的相关快捷指令可以去<a href="https://www.dreamfty.top/wang-zhan-jian-she-wang-zhan-jian-she-zhong-de-chong-yao-gai-nian.html">网站建设中的相关概念</a>中查看，里面还有其他使用的内容。关于 NexT 主题的安装与优化会单独写篇文章讲解，如果对此感兴趣的话，欢迎收藏或订阅 RSS。</li>
+</ol>
+<p><img src="/../photo/%E7%BD%91%E5%9D%80.png" alt="网址"></p>
+<p>如图所示，在浏览器中输入<code>http://localhost:4000 </code>，如要复制请右键复制，使用<code>Ctrl+C</code>将停止 serve。当然如果你不小心使用了快捷键使其停止了，再次输入<code>hexo s</code>运行即可，成品如下：</p>
+<p><img src="/../photo/%E6%88%90%E5%93%812.png" alt="成品2"></p>
+<h2 id="将博客托管至GitHub"><a href="#将博客托管至GitHub" class="headerlink" title="将博客托管至GitHub"></a>将博客托管至GitHub</h2><ol>
+<li>在 Github 中新建一个仓库<br>  <img src="/../photo/hub1.png" alt="hub1"></li>
+</ol>
+<p>  <strong>注意</strong>:<code>Repository name</code>一定要按照图片上的格式填写，其他的默认即可</p>
+<p>  <img src="/../photo/%E7%94%A8%E6%88%B7%E5%90%8D.png" alt="用户名"></p>
+<ol start="2">
+<li>SSH连接<br>  先输入：<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/.ssh <span class="comment">#检查本机是否已经存在 SSH 密钥</span></span><br></pre></td></tr></tbody></table></figure>
+如果提示：<code>No such file or directory </code>说明你是第一次使用git。<br>输入如下代码，生成 SSH 文件<figure class="highlight excel"><table><tbody><tr><td class="code"><pre><span class="line">ssh-keygen -<span class="built_in">t</span> rsa -C ”邮件地址“</span><br></pre></td></tr></tbody></table></figure>
+然后连续3次回车，最终会生成一个文件在“用户”目录下，打开“用户”目录（C:\用户\用户名.ssh）并找到<code>id_rsa.p ub</code>文件，用“记事本”打开并复制里面的内容，在 Github 主页的右上角进入 Setting -&gt; 左侧菜单栏“SSH and GPG keys” -&gt; New SSH Key -&gt; 填写你获得的 SSH Key。</li>
+<li>配置<br>接下来还需要配置用户名和邮箱：<figure class="highlight autoit"><table><tbody><tr><td class="code"><pre><span class="line">git config --<span class="keyword">global</span> user.name “xxx”    <span class="meta">#你的 github 用户名</span></span><br><span class="line">git config --<span class="keyword">global</span> user.email  “xxx<span class="symbol">@qq</span>.com”  <span class="meta">#你的 github 注册邮箱</span></span><br></pre></td></tr></tbody></table></figure></li>
+</ol>
+<h2 id="上传到-Github"><a href="#上传到-Github" class="headerlink" title="上传到 Github"></a>上传到 Github</h2><ol>
+<li>在站点配置文件的<code>_config.yml</code>中填写有关deploy的部分：<figure class="highlight dts"><table><tbody><tr><td class="code"><pre><span class="line"><span class="symbol">deploy:</span></span><br><span class="line"><span class="symbol">  type:</span> git</span><br><span class="line"><span class="symbol">  repo:</span> https:<span class="comment">//gitee.com/用户名/仓库名  </span></span><br><span class="line"><span class="symbol">  branch:</span> master</span><br></pre></td></tr></tbody></table></figure>
+<strong>注意</strong>：冒号后面必须有一个空格，否则可能会报错。</li>
+<li>我们还需要安装一个插件，在 Git bash 下输入<figure class="highlight ada"><table><tbody><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git <span class="comment">--save</span></span><br></pre></td></tr></tbody></table></figure>
+接着再输入<figure class="highlight ebnf"><table><tbody><tr><td class="code"><pre><span class="line"><span class="attribute">hexo d</span></span><br></pre></td></tr></tbody></table></figure>
+可能会弹出“Windows 安全中心”的窗口，使用 Github 账号密码登录一下即可，登录成功后便会继续上传。</li>
+<li>上传成功后来到 Github Page 查看，成品如下：<br><img src="/../photo/%E6%88%90%E5%8A%9F.png" alt="成功"><br>（PS：如果使用 Gitee 还需要在“服务”中开启 Gitee Page，并且还需要根据它的步骤进行身份认证，时间可能会比较久)</li>
+<li>点击 Setting -&gt; Page 即可查看自己的站点网址，Github 还有一个好东西就是<code>Enforce HTTPS</code>，可以强制执行 HTTPS 进行加密，具体往下翻就能看到。</li>
+</ol>
+<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>如果还有什么不懂的地方，欢迎在评论下方留言，我一般集中在周末一起回答。关于博客美化的问题，我在这里想应用想起用<a href="http://www.zhihu.com/people/66dd2b3910fd674ee2c953b01caa454a">@dboy</a>大佬的一句话：<strong>“你们这些孩子哪里是真为了写博客。你们只是想体会换新工具的愉快感觉，顺便体会一下否定掉旧工具，觉得自己特别的小欣喜。”博客是写作的工具，而内容才更重要。</strong>我引用这句话并不是想否定美化的作用，而是我们在美化的时候，不要忘记内容才是我们的根基!</p>
+<p>如果你觉得这篇文章对你有帮助，麻烦赞赏一下吧！你的留言鼓励是博主更新的最大动力，十分感谢！</p>
+]]></content>
+      <categories>
+        <category>网站建设</category>
+        <category>基础教程</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>NexT 主题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>不要再沉迷于更换工具了</title>
+    <url>/posts/10703.html</url>
+    <content><![CDATA[<p>之前引用过<a href="http://www.zhihu.com/people/66dd2b3910fd674ee2c953b01caa454a">@dboy</a>大佬的一句话：<strong>“你们这些孩子哪里是真为了写博客。你们只是想体会换新工具的愉快感觉，顺便体会一下否定掉旧工具，觉得自己特别的小欣喜。”</strong>又看到<a href="https://plug-world.com/posts/stop-obsessing-over-tools/">Stop Obsessing Over Tools</a>，很受启发，我们很多时候一直热衷于不断的更换工具，例如追求 all in one 的笔记工具，我从为知笔记换到 Notion，再到其他种种笔记软件，几乎所有的笔记软件我都试过了，直到最近我才稳定下来，决定使用<a href="https://apps.apple.com/cn/app/metion-%E4%B8%AD%E6%96%87%E5%86%99%E4%BD%9C%E8%80%85%E7%9A%84%E7%AC%94%E8%AE%B0%E5%B7%A5%E5%85%B7/id1530965242">Metion</a>，我一直在追求一个最好的体验，我想要能全平台同步使用的，想要拥有优秀编辑体验的，又不希望软件的环境过于“封闭”，就是笔记只能在这款软件上打开。这最终就导致了一个结果——永无止境的更换寻找。<br>使用工具的根本目的是提升效率，然而像我这么做的人会发现，笔记软件用了很多个，真正要记的笔记却寥寥无几，到头来我们只是沉迷于更换掉旧工具，发现新工具的快感，却唯独忘记了自己究竟要做什么。<br>所以，在我看来，一个工具所谓的“好用”，是指能帮助你完成工作，而不是意在帮助你完成各种各样的工作，这样的工具并不存在，也不可能存在，每一款软件，每一个工具都有自己存在的亮点，Notion 作为笔记软件中的“瑞士军刀”是可以帮助你完成许多任务，但没有人会想在瑞士军刀上加装一个砍柴的斧头，我并不是想要否认 Notion 的价值，它确实可以说是如今最好的笔记应用，我只是想要传达一个观点：All in one 无法做到，我们应该思考的，是我完成这个任务只需要什么就够了，而不是我完成这个任务还需要什么。<br>所以，</p>
+]]></content>
+      <categories>
+        <category>碎碎念</category>
+      </categories>
+      <tags>
+        <tag>工具</tag>
+        <tag>效率</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo+Github搭建免费博客｜基础教程(二)：NexT 主题基本美化｜全网最细致全面的教程（持续更新中）</title>
+    <url>/posts/56587.html</url>
+    <content><![CDATA[<blockquote>
+<p>在<a href="https://www.dreamfty.top/posts/27998.html">基础教程(一)：Hexo+NexT主题搭建</a>中我们已经学会了如何使用 Github 搭建 Hexo 博客了，那么在接下来的这篇文章中我将会介绍一下 Hexo 的基础使用与美化教程</p>
+</blockquote>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><h3 id="配置文件的位置"><a href="#配置文件的位置" class="headerlink" title="配置文件的位置"></a>配置文件的位置</h3><p>接下来我将会以<code>站点配置文件</code>和<code>主题配置文件</code>来说明两个需要使用的文件，如下：</p>
+<span id="more"></span>
+
+<ul>
+<li><p>站点配置文件</p>
+<p>你博客目录下的<code>_config.yml</code>，例如我的站点配置文件就是<code>D:\GithubBlog\MyBlog</code>的<code>_config.yml</code>文件</p>
+</li>
+<li><p>主题配置文件</p>
+<p>主题文件夹下的<code>_config.yml</code>，例如我的站点配置文件就是<code>D:\GithubBlog\MyBlog\themes\next</code>的<code>_config.yml</code>文件</p>
+</li>
+</ul>
+<h3 id="空格问题"><a href="#空格问题" class="headerlink" title="空格问题"></a>空格问题</h3><p><span class="github-emoji"><span>⭐</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span><strong>注意</strong>：编辑代码文件时，例如<code>_config.yml</code>文件，必须使用<em>英文输入状态下</em>的冒号，并且冒号后面必须有一个空格，否则会出现错误，例如<code>language: zh-Hans</code></p>
+<h3 id="部署问题"><a href="#部署问题" class="headerlink" title="部署问题"></a>部署问题</h3><ol>
+<li>每次使用</li>
+<li>建议每次更改 Hexo 文件后，使用<code>hexo g</code>与<code>hexo s</code>进行编译与运行，并在<code>http://localhost:4000</code>中查看更改，确认更改无误后使用<code>hexo d</code>上传至网页</li>
+</ol>
+<pre><code class="heml">清除缓存: hexo clean
+生成: hexo g
+预览:  hexo s
+部署:  hexo d
+<figure class="highlight gherkin"><table><tbody><tr><td class="code"><pre><span class="line">其他详见[Hexo 常用命令](https://www.dreamfty.top/posts/9921.html)</span><br><span class="line"></span><br><span class="line"><span class="comment">## 使用基础</span></span><br><span class="line"></span><br><span class="line"><span class="comment">### 更换语言</span></span><br><span class="line"></span><br><span class="line">NexT支持多种语言，只需编辑<span class="symbol">*</span><span class="symbol">*</span>站点配置文件<span class="symbol">*</span><span class="symbol">*</span>下的 language 设置</span><br><span class="line"></span><br><span class="line">|<span class="string"> 语言          </span>|<span class="string"> 代码                             </span>|<span class="string"> 设定示例                                   </span>|</span><br><span class="line">|<span class="string"> ------------- </span>|<span class="string"> -------------------------------- </span>|<span class="string"> ------------------------------------------ </span>|</span><br><span class="line">|<span class="string"> English       </span>|<span class="string"> en                               </span>|<span class="string"> language: en                               </span>|</span><br><span class="line">|<span class="string"> 简体中文      </span>|<span class="string"> zh-CN（注：zh-Hans已经无法使用） </span>|<span class="string"> language: zh-CN                            </span>|</span><br><span class="line">|<span class="string"> Frangais      </span>|<span class="string"> fr-FR                            </span>|<span class="string"> language: fr-FR                            </span>|</span><br><span class="line">|<span class="string"> Portugues     </span>|<span class="string"> pt                               </span>|<span class="string"> language: pt&lt;br /&gt;或者&lt;br /&gt;language:pt-BR </span>|</span><br><span class="line">|<span class="string"> 繁體中文      </span>|<span class="string"> zh-hk&lt;br /&gt;或者&lt;br /&gt;zh-tw       </span>|<span class="string"> language: zh-hk                            </span>|</span><br><span class="line">|<span class="string"> Pycckmi 93bIK </span>|<span class="string"> ru                               </span>|<span class="string"> language: ru                               </span>|</span><br><span class="line">|<span class="string"> Deutsch       </span>|<span class="string"> de                               </span>|<span class="string"> language: de                               </span>|</span><br><span class="line">|<span class="string"> 日本語        </span>|<span class="string"> ja                               </span>|<span class="string"> language: ja                               </span>|</span><br><span class="line">|<span class="string"> Indonesian    </span>|<span class="string"> id                               </span>|<span class="string"> language: id                               </span>|</span><br><span class="line">|<span class="string"> Korean        </span>|<span class="string"> ko                               </span>|<span class="string"> language: ko                               </span>|</span><br><span class="line"></span><br><span class="line"><span class="comment">### 设置菜单连接</span></span><br><span class="line"></span><br><span class="line">NexT默认的菜单项有6个，初始只有`home`和`archives`，剩余菜单项需要在<span class="symbol">*</span><span class="symbol">*</span>主题配置文件<span class="symbol">*</span><span class="symbol">*</span>中的`menu`中编辑以开启。</span><br><span class="line"></span><br><span class="line">初始状态如下：</span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
+menu:
+  home: / || home
+  #about: /about/ || user
+  #tags: /tags/ || tags
+  #categories: /categories/ || th
+  archives: /archives/ || archive
+  #schedule: /schedule/ || calendar
+  #sitemap: /sitemap.xml || sitemap
+  #commonweal: /404/ || heartbeat
+<figure class="highlight autohotkey"><table><tbody><tr><td class="code"><pre><span class="line"></span><br><span class="line">新建菜单的步骤：</span><br><span class="line"></span><br><span class="line"><span class="number">1</span>. 将你想要的菜单选项前的注释 # 去掉，这里以`tags`为例。</span><br></pre></td></tr></tbody></table></figure>
+menu:
+  home: / || home
+  #about: /about/ || user
+  tags: /tags/ || tags
+  #categories: /categories/ || th
+  archives: /archives/ || archive
+  #schedule: /schedule/ || calendar
+  #
+sitemap: /sitemap.xml || sitemap
+  #commonweal: /404/ || heartbeat
+<figure class="highlight autohotkey"><table><tbody><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="number">2</span>. 在`Git Bash`执行下列命令，新建页面`tags`：</span><br><span class="line">   `hexo <span class="keyword">new</span> page <span class="string">"tags"</span>`</span><br><span class="line"></span><br><span class="line"><span class="number">3</span>. 完成<span class="number">2</span>后`Myblog/source/`中会出现`tags`目录，该目录下有`index.md`文件，文件内容如下：</span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
+   title: tags
+   date: 2019-02-18 16:40:41
+   <figure class="highlight awk"><table><tbody><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="number">4</span>. 在`date`字段下添加：`type: tags`</span><br><span class="line">tags 的使用方法详见[Hexo 常用命令](https:<span class="regexp">//</span>www.dreamfty.top<span class="regexp">/posts/</span><span class="number">9921</span>.html)</span><br><span class="line"></span><br><span class="line"><span class="comment">###设置菜单名称</span></span><br><span class="line">打开`<span class="keyword">next</span><span class="regexp">/languages/</span>zh-CN.yml`，更改以下字段</span><br></pre></td></tr></tbody></table></figure>
+menu:
+  home: 首页
+  archives: 归档
+  categories: 分类
+  tags: 标签
+  about: 关于
+  search: 搜索
+  commonweal: 公益404
+  something: 有料
+</code></pre>
+<p>例如你要将 about 的翻译“关于”改为“关于我”，直接更改为“about: 关于我”即可</p>
+<p>###去除底部“由 Hexo 强力驱动“</p>
+<p>打开<code>主题配置文件</code>，找到<code>Powered by Hexo &amp; NexT</code>字段，将<code>powered: true</code>改为<code>powered: false</code></p>
+<h3 id="添加个人介绍——关于"><a href="#添加个人介绍——关于" class="headerlink" title="添加个人介绍——关于"></a>添加个人介绍——关于</h3><blockquote>
+<p>要先添加 about 菜单<br>打开<code>\source\about</code>下的<code>index.md</code>文件，在最后一个空行(即<code>---</code>的下方)添加你显示的个人信息</p>
+</blockquote>
+<about></about>]]></content>
+      <categories>
+        <category>网站建设</category>
+        <category>基础教程</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>NexT</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>人性的善恶—历史上的中国与外国哲学家对人性的探求</title>
     <url>/posts/9408.html</url>
     <content><![CDATA[<p>人性问题，是从古至今诸子百家所关心和研究的问题。春秋战国时期，这个中国历史上思想最为繁荣、文化最为昌盛的时代，文人们的思想空前活跃，在不同学派百家争鸣的局面中，纷纷<span id="more"></span>提出自己的观点，大体可概括为四种学说——性善论，性恶论，无善无恶论，有善有恶论。</p>
@@ -155,205 +337,6 @@
       </categories>
       <tags>
         <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo+Github搭建免费博客｜基础教程(二)：NexT 主题基本美化｜全网最细致全面的教程（持续更新中）</title>
-    <url>/posts/56587.html</url>
-    <content><![CDATA[<blockquote>
-<p>在<a href="https://www.dreamfty.top/posts/27998.html">基础教程(一)：Hexo+NexT主题搭建</a>中我们已经学会了如何使用 Github 搭建 Hexo 博客了，那么在接下来的这篇文章中我将会介绍一下 Hexo 的基础使用与美化教程</p>
-</blockquote>
-<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><h3 id="配置文件的位置"><a href="#配置文件的位置" class="headerlink" title="配置文件的位置"></a>配置文件的位置</h3><p>接下来我将会以<code>站点配置文件</code>和<code>主题配置文件</code>来说明两个需要使用的文件，如下：</p>
-<span id="more"></span>
-
-<ul>
-<li><p>站点配置文件</p>
-<p>你博客目录下的<code>_config.yml</code>，例如我的站点配置文件就是<code>D:\GithubBlog\MyBlog</code>的<code>_config.yml</code>文件</p>
-</li>
-<li><p>主题配置文件</p>
-<p>主题文件夹下的<code>_config.yml</code>，例如我的站点配置文件就是<code>D:\GithubBlog\MyBlog\themes\next</code>的<code>_config.yml</code>文件</p>
-</li>
-</ul>
-<h3 id="空格问题"><a href="#空格问题" class="headerlink" title="空格问题"></a>空格问题</h3><p><span class="github-emoji"><span>⭐</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span><strong>注意</strong>：编辑代码文件时，例如<code>_config.yml</code>文件，必须使用<em>英文输入状态下</em>的冒号，并且冒号后面必须有一个空格，否则会出现错误，例如<code>language: zh-Hans</code></p>
-<h3 id="部署问题"><a href="#部署问题" class="headerlink" title="部署问题"></a>部署问题</h3><p>建议每次</p>
-<h2 id="使用基础"><a href="#使用基础" class="headerlink" title="使用基础"></a>使用基础</h2><h3 id="更换语言"><a href="#更换语言" class="headerlink" title="更换语言"></a>更换语言</h3><p>NexT支持多种语言，只需编辑<strong>站点配置文件</strong>下的 language 设置</p>
-<table>
-<thead>
-<tr>
-<th>语言</th>
-<th>代码</th>
-<th>设定示例</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>English</td>
-<td>en</td>
-<td>language: en</td>
-</tr>
-<tr>
-<td>简体中文</td>
-<td>zh-CN（注：zh-Hans已经无法使用）</td>
-<td>language: zh-CN</td>
-</tr>
-<tr>
-<td>Frangais</td>
-<td>fr-FR</td>
-<td>language: fr-FR</td>
-</tr>
-<tr>
-<td>Portugues</td>
-<td>pt</td>
-<td>language: pt<br>或者<br>language:pt-BR</td>
-</tr>
-<tr>
-<td>繁體中文</td>
-<td>zh-hk<br>或者<br>zh-tw</td>
-<td>language: zh-hk</td>
-</tr>
-<tr>
-<td>Pycckmi 93bIK</td>
-<td>ru</td>
-<td>language: ru</td>
-</tr>
-<tr>
-<td>Deutsch</td>
-<td>de</td>
-<td>language: de</td>
-</tr>
-<tr>
-<td>日本語</td>
-<td>ja</td>
-<td>language: ja</td>
-</tr>
-<tr>
-<td>Indonesian</td>
-<td>id</td>
-<td>language: id</td>
-</tr>
-<tr>
-<td>Korean</td>
-<td>ko</td>
-<td>language: ko</td>
-</tr>
-</tbody></table>
-<h3 id="设置菜单连接"><a href="#设置菜单连接" class="headerlink" title="设置菜单连接"></a>设置菜单连接</h3><p>NexT默认的菜单项有6个，初始只有<code>home</code>和<code>archives</code>，剩余菜单项需要在<strong>主题配置文件</strong>中的<code>menu</code>中编辑以开启。</p>
-<p>初始状态如下：</p>
-<figure class="highlight gradle"><table><tbody><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: / || home</span><br><span class="line">  #about: <span class="regexp">/about/</span> || user</span><br><span class="line">  #tags: <span class="regexp">/tags/</span> || tags</span><br><span class="line">  #categories: <span class="regexp">/categories/</span> || th</span><br><span class="line">  archives: <span class="regexp">/archives/</span> || archive</span><br><span class="line">  #schedule: <span class="regexp">/schedule/</span> || calendar</span><br><span class="line">  #sitemap: /sitemap.xml || sitemap</span><br><span class="line">  #commonweal: <span class="regexp">/404/</span> || heartbeat</span><br></pre></td></tr></tbody></table></figure>
-
-<p>新建菜单的步骤：</p>
-<ol>
-<li><p>将你想要的菜单选项前的注释 # 去掉，这里以<code>tags</code>为例。</p>
-</li>
-<li></li>
-<li><p>新建页面<code>tags</code>，既执行下列命令：<br><code>hexo new page "tags"</code></p>
-</li>
-<li><p>完成2后<code>blog/source/</code>中会出现<code>tags</code>目录，该目录下有<code>index.md</code>文件，文件内容如果：</p>
-<figure class="highlight apache"><table><tbody><tr><td class="code"><pre><span class="line"><span class="attribute">title</span>: tags</span><br><span class="line"><span class="attribute">date</span>: <span class="number">2019</span>-<span class="number">02</span>-<span class="number">18</span> <span class="number">16</span>:<span class="number">40</span>:<span class="number">41</span></span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
-
-<p>编辑该文件，添加：<code>type: tags</code>。</p>
-</li>
-</ol>
-<p>完成以上3步后，重新生成静态文件，添加tags菜单项完成！</p>
-]]></content>
-      <categories>
-        <category>网站建设</category>
-        <category>基础教程</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>NexT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo+Github搭建免费博客｜基础教程(一)：Hexo+NexT主题搭建｜全网最细致全面的教程（持续更新中）</title>
-    <url>/posts/27998.html</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote>
-<p>一些关于博客搭建的问题，不想看可以直接跳过，不影响后面的流程</p>
-</blockquote>
-<h2 id="关于主题"><a href="#关于主题" class="headerlink" title="关于主题"></a>关于主题</h2><p>我现在使用的主题就是使用Hexo+NexT主题搭建的，但是你也不一定需要使用和我一样的主题，hexo<span id="more"></span>还是有很多其他好看的主题，例如butterfly等主题都可以供你选择，你可以在<a href="https://hexo.io/themes/index.html">Hexo的主题官网</a>自行选择即可。我选择NexT主题是因为它本身比较简洁。当然，本基础教程<strong>是适用于所有主题的</strong>，你只需要把安装NexT主题的部分换成你自己想要的主题即可。</p>
-<h2 id="关于Github-Page与Gitee-Page"><a href="#关于Github-Page与Gitee-Page" class="headerlink" title="关于Github Page与Gitee Page"></a>关于Github Page与Gitee Page</h2><p>为什么要选择Github Page，而不是用Gitee，主要原因如下：</p>
-<ul>
-<li>Gitee Page 的开通需要身份证认证，不仅要拍身份证正反面，还要有手持身份证的照片，甚至还有不通过的可能，总之就是很麻烦</li>
-<li>Gitee似乎是有5G空间限制的，虽然说纯打字基本是不可能用完的，但是如果你要使用<strong>相对路径</strong>来储存文章图片的话，那可能就不好说了</li>
-<li>Gitee不知道能否绑定<em>自定义域名</em>，反正Github是可以的。如果你看不惯 XXX.github.io的域名话，可以自行去阿里云域名，腾讯云域名等官网购买自己想要的域名，当然这就会造成额外的花费了，不想花钱的话也可以不购买。关于“如何绑定自定义域名”的方法我会单独写篇文章来细致讲解，这里就不过多赘述，毕竟标题是搭建<strong>免费博客</strong></li>
-<li>Gitee毕竟是国内的，管的比较严，你只能是发合法的，健康的个人博客。当然这并不等于用Github就可以乱来了，也是会被封掉的。<br>当然，如果你会使用Github Page，那么你也自然会使用Gitee Page了，二者的步骤其实大同小异，并且如果你想从Github转到Gitee，在接下来的教学中我也会介绍方法。</li>
-</ul>
-<h1 id="如何搭建Hexo"><a href="#如何搭建Hexo" class="headerlink" title="如何搭建Hexo"></a>如何搭建Hexo</h1><blockquote>
-<p>接下来就进入我们的正式环节了，不用担心自己没有编程基础，跟着做你就肯定能学会。</p>
-</blockquote>
-<h2 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h2><h3 id="注册Github账号"><a href="#注册Github账号" class="headerlink" title="注册Github账号"></a><strong>注册Github账号</strong></h3><p><span id="网络"></span></p>
-<p>进入GitHub官网并注册账号，不会的可以看<a href="https://blog.csdn.net/m0_67906358/article/details/128808210">这篇教程</a>，官网网址如下：<a href="https://github.com/">https://github.com</a><br>（PS：如果无法进入Github，可以下载<a href="https://steampp.net/">Watt Tooklkit</a>进行网络加速，如果担心隐私问题请谨慎使用，本人无法保障你的信息安全）</p>
-<h3 id="下载Git"><a href="#下载Git" class="headerlink" title="下载Git"></a>下载Git</h3><p>下载并安装 Git，官网地址： <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
-<h3 id="下载Nodjs"><a href="#下载Nodjs" class="headerlink" title="下载Nodjs"></a>下载Nodjs</h3><p>下载安装 Nodejs：<a href="http://nodejs.cn/download/">http://nodejs.cn/download/</a></p>
-<h2 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h2><ol>
-<li>在键盘上按下<code>win+R</code>键，输入<code>cmd</code>（大小写均可）</li>
-</ol>
-<p><img src="/../photo/%E8%BF%90%E8%A1%8C.png" alt="运行"></p>
-<ol start="2">
-<li>在弹出的窗口中输入<figure class="highlight ada"><table><tbody><tr><td class="code"><pre><span class="line">git <span class="comment">--version</span></span><br></pre></td></tr></tbody></table></figure>
-<figure class="highlight applescript"><table><tbody><tr><td class="code"><pre><span class="line">npm <span class="built_in">version</span></span><br></pre></td></tr></tbody></table></figure>
-只要不报错就行<br><img src="/../photo/CMD.png" alt="CMD"></li>
-</ol>
-<h3 id="安装与调试"><a href="#安装与调试" class="headerlink" title="安装与调试"></a>安装与调试</h3><ol>
-<li>更换 npm 源<br>在刚刚弹出的窗口中输入代码，并等待安装完成（可直接复制，下同）<figure class="highlight cmake"><table><tbody><tr><td class="code"><pre><span class="line">npm <span class="keyword">install</span> -g hexo  </span><br></pre></td></tr></tbody></table></figure></li>
-</ol>
-<p>如果出现报错的情况，例如：</p>
-<figure class="highlight coffeescript"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">npm</span> ERR! code ENOTFOUND</span><br><span class="line"><span class="built_in">npm</span> ERR! errno ENOTFOUND</span><br><span class="line">......</span><br><span class="line"><span class="built_in">npm</span> ERR! network ’proxy‘ config <span class="keyword">is</span> set properly.  See: ’<span class="built_in">npm</span> help config‘</span><br></pre></td></tr></tbody></table></figure>
-<p>这主要是网络的原因，毕竟服务器在国外，下面是解决方案：</p>
-<ul>
-<li>如果不是淘宝的镜像，使用taobao镜像，然后跳过下一个方案。<figure class="highlight arduino"><table><tbody><tr><td class="code"><pre><span class="line">npm config set registry https:<span class="comment">//registry.npm.taobao.org</span></span><br></pre></td></tr></tbody></table></figure></li>
-<li>如果现在是taobao的镜像，使用下面的<figure class="highlight tcl"><table><tbody><tr><td class="code"><pre><span class="line">npm config <span class="keyword">set</span> <span class="keyword">registry</span> <span class="keyword">http</span>://<span class="keyword">registry</span>.cnpmjs.org/</span><br></pre></td></tr></tbody></table></figure>
-如果不清楚现在用的是哪个，用第一个解决方案。</li>
-</ul>
-<h2 id="博客搭建"><a href="#博客搭建" class="headerlink" title="博客搭建"></a>博客搭建</h2><ol>
-<li>在电脑任意位置新建一个文件夹，文件名随意。这个文件夹将用于储存你网站的静态文件。路径最好是全英文的，如果发现路径中存在“此电脑”“本地磁盘”的中文名，不用想着去修改，它的实际路径其实是英文的<br>  <img src="/../photo/%E8%B7%AF%E5%BE%841.png" alt="路径1"></li>
-</ol>
-<p><img src="/../photo/%E8%B7%AF%E5%BE%842.png" alt="路径2"></p>
-<ol start="2">
-<li>右键鼠标，打开<code>Git Bash Here</code>，并依次输入以下命令：（如遇<a href="#%E7%BD%91%E7%BB%9C">网络问题</a>见上）</li>
-</ol>
-<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">hexo init 想创建的二级文件名</span><br><span class="line"><span class="built_in">cd</span> 二级文件名</span><br><span class="line">npm install</span><br></pre></td></tr></tbody></table></figure>
-<p><img src="/../photo/GItbash.png" alt="GItbash"></p>
-<p><img src="/../photo/bash1.png" alt="bash1"></p>
-<p><img src="/../photo/bash2.png" alt="bash2"></p>
-<ol start="3">
-<li>到这时候，我们 Hexo 的的本地搭建可以说是基本完成了，接着再输入以下命令：<figure class="highlight ebnf"><table><tbody><tr><td class="code"><pre><span class="line"><span class="attribute">hexo g</span></span><br></pre></td></tr></tbody></table></figure>
-<figure class="highlight ebnf"><table><tbody><tr><td class="code"><pre><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></tbody></table></figure>
-Hexo 的相关快捷指令可以去<a href="https://www.dreamfty.top/wang-zhan-jian-she-wang-zhan-jian-she-zhong-de-chong-yao-gai-nian.html">网站建设中的相关概念</a>中查看，里面还有其他使用的内容。关于 NexT 主题的安装与优化会单独写篇文章讲解，如果对此感兴趣的话，欢迎收藏或订阅 RSS。</li>
-</ol>
-<p><img src="/../photo/%E7%BD%91%E5%9D%80.png" alt="网址"></p>
-<p>如图所示，在浏览器中输入<code>http://localhost:4000 </code>，如要复制请右键复制，使用<code>Ctrl+C</code>将停止 serve。当然如果你不小心使用了快捷键使其停止了，再次输入<code>hexo s</code>运行即可，成品如下：</p>
-<p><img src="/../photo/%E6%88%90%E5%93%812.png" alt="成品2"></p>
-<h2 id="将博客托管至GitHub"><a href="#将博客托管至GitHub" class="headerlink" title="将博客托管至GitHub"></a>将博客托管至GitHub</h2><ol>
-<li>在 Github 中新建一个仓库<br>  <img src="/../photo/hub1.png" alt="hub1"></li>
-</ol>
-<p>  <strong>注意</strong>:<code>Repository name</code>一定要按照图片上的格式填写，其他的默认即可</p>
-<p>  <img src="/../photo/%E7%94%A8%E6%88%B7%E5%90%8D.png" alt="用户名"></p>
-<ol start="2">
-<li>SSH连接<br>  先输入：<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/.ssh <span class="comment">#检查本机是否已经存在 SSH 密钥</span></span><br></pre></td></tr></tbody></table></figure>
-如果提示：<code>No such file or directory </code>说明你是第一次使用git。<br>输入如下代码，生成 SSH 文件<figure class="highlight excel"><table><tbody><tr><td class="code"><pre><span class="line">ssh-keygen -<span class="built_in">t</span> rsa -C ”邮件地址“</span><br></pre></td></tr></tbody></table></figure>
-然后连续3次回车，最终会生成一个文件在“用户”目录下，打开“用户”目录（C:\用户\用户名.ssh）并找到<code>id_rsa.p ub</code>文件，用“记事本”打开并复制里面的内容，在 Github 主页的右上角进入 Setting -&gt; 左侧菜单栏“SSH and GPG keys” -&gt; New SSH Key -&gt; 填写你获得的 SSH Key。</li>
-<li>配置<br>接下来还需要配置用户名和邮箱：<figure class="highlight autoit"><table><tbody><tr><td class="code"><pre><span class="line">git config --<span class="keyword">global</span> user.name “xxx”    <span class="meta">#你的 github 用户名</span></span><br><span class="line">git config --<span class="keyword">global</span> user.email  “xxx<span class="symbol">@qq</span>.com”  <span class="meta">#你的 github 注册邮箱</span></span><br></pre></td></tr></tbody></table></figure></li>
-</ol>
-<h2 id="上传到-Github"><a href="#上传到-Github" class="headerlink" title="上传到 Github"></a>上传到 Github</h2><ol>
-<li>在站点配置文件的<code>_config.yml</code>中填写有关deploy的部分：<figure class="highlight dts"><table><tbody><tr><td class="code"><pre><span class="line"><span class="symbol">deploy:</span></span><br><span class="line"><span class="symbol">  type:</span> git</span><br><span class="line"><span class="symbol">  repo:</span> https:<span class="comment">//gitee.com/用户名/仓库名  </span></span><br><span class="line"><span class="symbol">  branch:</span> master</span><br></pre></td></tr></tbody></table></figure>
-<strong>注意</strong>：冒号后面必须有一个空格，否则可能会报错。</li>
-<li>我们还需要安装一个插件，在 Git bash 下输入<figure class="highlight ada"><table><tbody><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git <span class="comment">--save</span></span><br></pre></td></tr></tbody></table></figure>
-接着再输入<figure class="highlight ebnf"><table><tbody><tr><td class="code"><pre><span class="line"><span class="attribute">hexo d</span></span><br></pre></td></tr></tbody></table></figure>
-可能会弹出“Windows 安全中心”的窗口，使用 Github 账号密码登录一下即可，登录成功后便会继续上传。</li>
-<li>上传成功后来到 Github Page 查看，成品如下：<br><img src="/../photo/%E6%88%90%E5%8A%9F.png" alt="成功"><br>（PS：如果使用 Gitee 还需要在“服务”中开启 Gitee Page，并且还需要根据它的步骤进行身份认证，时间可能会比较久)</li>
-<li>点击 Setting -&gt; Page 即可查看自己的站点网址，Github 还有一个好东西就是<code>Enforce HTTPS</code>，可以强制执行 HTTPS 进行加密，具体往下翻就能看到。</li>
-</ol>
-<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>如果还有什么不懂的地方，欢迎在评论下方留言，我一般集中在周末一起回答。关于博客美化的问题，我在这里想应用想起用<a href="http://www.zhihu.com/people/66dd2b3910fd674ee2c953b01caa454a">@dboy</a>大佬的一句话：<strong>“你们这些孩子哪里是真为了写博客。你们只是想体会换新工具的愉快感觉，顺便体会一下否定掉旧工具，觉得自己特别的小欣喜。”博客是写作的工具，而内容才更重要。</strong></p>
-<p>如果你觉得这篇文章对你有帮助，麻烦赞赏一下吧！你的留言鼓励是博主更新的最大动力，十分感谢！</p>
-]]></content>
-      <categories>
-        <category>网站建设</category>
-        <category>基础教程</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>NexT</tag>
       </tags>
   </entry>
 </search>
