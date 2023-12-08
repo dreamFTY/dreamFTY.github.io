@@ -9,7 +9,7 @@ function addLink()
         return false; 
     }
     else {
-        var pagelink = "<br/>原文出自[ Dream‘s bolg ](https://www.dreamfty.top)<br/>除特别声明外，均采用 CC BY-NC-SA 4.0 许可协议<br/>转载请保留原文链接: "+document.location.href+"";
+        var pagelink = "<br/>原文出自[ Dream‘s bolg ](https://www.mirafcy.top)<br/>除特别声明外，均采用 CC BY-NC-SA 4.0 许可协议<br/>转载请保留原文链接: "+document.location.href+"";
         var copytext = selection + "<br/>"+pagelink;
         var newdiv = document.createElement('div');
         newdiv.style.position='absolute';
