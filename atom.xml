@@ -52,10 +52,10 @@
     <link href="https://www.dreamfty.top/posts/10703.html"/>
     <id>https://www.dreamfty.top/posts/10703.html</id>
     <published>2023-11-11T23:09:00.000Z</published>
-    <updated>2023-12-03T01:12:05.243Z</updated>
+    <updated>2023-12-09T06:46:14.186Z</updated>
     
     
-    <summary type="html">&lt;p&gt;之前引用过&lt;a href=&quot;http://www.zhihu.com/people/66dd2b3910fd674ee2c953b01caa454a&quot;&gt;@dboy&lt;/a&gt;大佬的一句话：&lt;strong&gt;“你们这些孩子哪里是真为了写博客。你们只是想体会换新工具的愉快感觉，顺便体会一下否定掉旧工具，觉得自己特别的小欣喜。”&lt;/strong&gt;&lt;/p&gt;</summary>
+    <summary type="html">回归使用工具的初心——提高效率与节约时间</summary>
     
     
     
@@ -65,6 +65,29 @@
     <category term="工具" scheme="https://www.dreamfty.top/tags/%E5%B7%A5%E5%85%B7/"/>
     
     <category term="效率" scheme="https://www.dreamfty.top/tags/%E6%95%88%E7%8E%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github搭建免费博客｜基础教程(二)：NexT 主题基本美化｜全网最细致全面的教程（持续更新中）</title>
+    <link href="https://www.dreamfty.top/posts/56587.html"/>
+    <id>https://www.dreamfty.top/posts/56587.html</id>
+    <published>2023-10-19T16:00:00.000Z</published>
+    <updated>2023-12-09T06:44:39.432Z</updated>
+    
+    
+    <summary type="html">NexT主题的基本美化，实现增加菜单栏、更换图标和去除底部标识等</summary>
+    
+    
+    
+    <category term="网站建设" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
+    
+    <category term="基础教程" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Hexo" scheme="https://www.dreamfty.top/tags/Hexo/"/>
+    
+    <category term="NexT" scheme="https://www.dreamfty.top/tags/NexT/"/>
     
   </entry>
   
@@ -95,37 +118,11 @@
   </entry>
   
   <entry>
-    <title>Hexo+Github搭建免费博客｜基础教程(二)：NexT 主题基本美化｜全网最细致全面的教程（持续更新中）</title>
-    <link href="https://www.dreamfty.top/posts/56587.html"/>
-    <id>https://www.dreamfty.top/posts/56587.html</id>
-    <published>2023-10-19T16:00:00.000Z</published>
-    <updated>2023-12-03T00:52:26.916Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;在&lt;a href=&quot;https://www.dreamfty.top/posts/27998.html&quot;&gt;基础教程(一)：Hexo+NexT主题搭建&lt;/a&gt;中我们已经学会了如何使用 Github 搭建 Hexo 博客了，那么在接下来的这篇文章中我将会介绍一下 Hexo 的基础使用与美化教程&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;注意事项&quot;&gt;&lt;a href=&quot;#注意事项&quot; class=&quot;headerlink&quot; title=&quot;注意事项&quot;&gt;&lt;/a&gt;注意事项&lt;/h2&gt;&lt;h3 id=&quot;配置文件的位置&quot;&gt;&lt;a href=&quot;#配置文件的位置&quot; class=&quot;headerlink&quot; title=&quot;配置文件的位置&quot;&gt;&lt;/a&gt;配置文件的位置&lt;/h3&gt;&lt;p&gt;接下来我将会以&lt;code&gt;站点配置文件&lt;/code&gt;和&lt;code&gt;主题配置文件&lt;/code&gt;来说明两个需要使用的文件，如下：&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="网站建设" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
-    
-    <category term="基础教程" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="Hexo" scheme="https://www.dreamfty.top/tags/Hexo/"/>
-    
-    <category term="NexT" scheme="https://www.dreamfty.top/tags/NexT/"/>
-    
-  </entry>
-  
-  <entry>
     <title>人性的善恶—历史上的中国与外国哲学家对人性的探求</title>
     <link href="https://www.dreamfty.top/posts/9408.html"/>
     <id>https://www.dreamfty.top/posts/9408.html</id>
     <published>2023-10-13T16:00:00.000Z</published>
-    <updated>2023-12-08T15:03:04.682Z</updated>
+    <updated>2023-12-09T06:49:31.648Z</updated>
     
     
     <summary type="html">人性，是从古至今诸子百家所关心和研究的问题。春秋战国时期，这个中国历史上思想最为繁荣、文化最为昌盛的时代，文人们的思想空前活跃，在不同学派百家争鸣的局面中，出现了四种学说——性善论，性恶论，无善无恶论，有善有恶论。</summary>
@@ -146,16 +143,10 @@
     <link href="https://www.dreamfty.top/posts/9921.html"/>
     <id>https://www.dreamfty.top/posts/9921.html</id>
     <published>2023-10-04T15:11:00.000Z</published>
-    <updated>2023-12-09T06:30:53.616Z</updated>
+    <updated>2023-12-09T06:41:14.335Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;元数据类别&quot;&gt;&lt;a href=&quot;#元数据类别&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">Hexo中常用的元数据类别与快捷指令</summary>
     
     
     
