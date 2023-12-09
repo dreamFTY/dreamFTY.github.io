@@ -69,32 +69,6 @@
   </entry>
   
   <entry>
-    <title>Hexo+Github搭建免费博客｜基础教程(一)：Hexo+NexT主题搭建｜全网最细致全面的教程（持续更新中）</title>
-    <link href="https://www.dreamfty.top/posts/27998.html"/>
-    <id>https://www.dreamfty.top/posts/27998.html</id>
-    <published>2023-10-19T16:00:00.000Z</published>
-    <updated>2023-12-04T12:09:09.761Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;一些关于博客搭建的问题，不想看可以直接跳过，不影响后面的流程&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;关于主题&quot;&gt;&lt;a href=&quot;#关于主题&quot; class=&quot;headerlink&quot; title=&quot;关于主题&quot;&gt;&lt;/a&gt;关于主题&lt;/h2&gt;&lt;p&gt;我现在使用的主题就是使用Hexo+NexT主题搭建的，但是你也不一定需要使用和我一样的主题，hexo&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="网站建设" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
-    
-    <category term="基础教程" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="Hexo" scheme="https://www.dreamfty.top/tags/Hexo/"/>
-    
-    <category term="NexT 主题" scheme="https://www.dreamfty.top/tags/NexT-%E4%B8%BB%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo+Github搭建免费博客｜基础教程(二)：NexT 主题基本美化｜全网最细致全面的教程（持续更新中）</title>
     <link href="https://www.dreamfty.top/posts/56587.html"/>
     <id>https://www.dreamfty.top/posts/56587.html</id>
@@ -117,6 +91,32 @@
     <category term="Hexo" scheme="https://www.dreamfty.top/tags/Hexo/"/>
     
     <category term="NexT" scheme="https://www.dreamfty.top/tags/NexT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github搭建免费博客｜基础教程(一)：Hexo+NexT主题搭建｜全网最细致全面的教程（持续更新中）</title>
+    <link href="https://www.dreamfty.top/posts/27998.html"/>
+    <id>https://www.dreamfty.top/posts/27998.html</id>
+    <published>2023-10-19T16:00:00.000Z</published>
+    <updated>2023-12-04T12:09:09.761Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;一些关于博客搭建的问题，不想看可以直接跳过，不影响后面的流程&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;关于主题&quot;&gt;&lt;a href=&quot;#关于主题&quot; class=&quot;headerlink&quot; title=&quot;关于主题&quot;&gt;&lt;/a&gt;关于主题&lt;/h2&gt;&lt;p&gt;我现在使用的主题就是使用Hexo+NexT主题搭建的，但是你也不一定需要使用和我一样的主题，hexo&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网站建设" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
+    
+    <category term="基础教程" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Hexo" scheme="https://www.dreamfty.top/tags/Hexo/"/>
+    
+    <category term="NexT 主题" scheme="https://www.dreamfty.top/tags/NexT-%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
