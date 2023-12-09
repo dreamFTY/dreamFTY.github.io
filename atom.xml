@@ -69,32 +69,6 @@
   </entry>
   
   <entry>
-    <title>Hexo+Github搭建免费博客｜基础教程(二)：NexT 主题基本美化｜全网最细致全面的教程（持续更新中）</title>
-    <link href="https://www.dreamfty.top/posts/56587.html"/>
-    <id>https://www.dreamfty.top/posts/56587.html</id>
-    <published>2023-10-19T16:00:00.000Z</published>
-    <updated>2023-12-03T00:52:26.916Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;在&lt;a href=&quot;https://www.dreamfty.top/posts/27998.html&quot;&gt;基础教程(一)：Hexo+NexT主题搭建&lt;/a&gt;中我们已经学会了如何使用 Github 搭建 Hexo 博客了，那么在接下来的这篇文章中我将会介绍一下 Hexo 的基础使用与美化教程&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;注意事项&quot;&gt;&lt;a href=&quot;#注意事项&quot; class=&quot;headerlink&quot; title=&quot;注意事项&quot;&gt;&lt;/a&gt;注意事项&lt;/h2&gt;&lt;h3 id=&quot;配置文件的位置&quot;&gt;&lt;a href=&quot;#配置文件的位置&quot; class=&quot;headerlink&quot; title=&quot;配置文件的位置&quot;&gt;&lt;/a&gt;配置文件的位置&lt;/h3&gt;&lt;p&gt;接下来我将会以&lt;code&gt;站点配置文件&lt;/code&gt;和&lt;code&gt;主题配置文件&lt;/code&gt;来说明两个需要使用的文件，如下：&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="网站建设" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
-    
-    <category term="基础教程" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="Hexo" scheme="https://www.dreamfty.top/tags/Hexo/"/>
-    
-    <category term="NexT" scheme="https://www.dreamfty.top/tags/NexT/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo+Github搭建免费博客｜基础教程(一)：Hexo+NexT主题搭建｜全网最细致全面的教程（持续更新中）</title>
     <link href="https://www.dreamfty.top/posts/27998.html"/>
     <id>https://www.dreamfty.top/posts/27998.html</id>
@@ -117,6 +91,32 @@
     <category term="Hexo" scheme="https://www.dreamfty.top/tags/Hexo/"/>
     
     <category term="NexT 主题" scheme="https://www.dreamfty.top/tags/NexT-%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github搭建免费博客｜基础教程(二)：NexT 主题基本美化｜全网最细致全面的教程（持续更新中）</title>
+    <link href="https://www.dreamfty.top/posts/56587.html"/>
+    <id>https://www.dreamfty.top/posts/56587.html</id>
+    <published>2023-10-19T16:00:00.000Z</published>
+    <updated>2023-12-03T00:52:26.916Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;在&lt;a href=&quot;https://www.dreamfty.top/posts/27998.html&quot;&gt;基础教程(一)：Hexo+NexT主题搭建&lt;/a&gt;中我们已经学会了如何使用 Github 搭建 Hexo 博客了，那么在接下来的这篇文章中我将会介绍一下 Hexo 的基础使用与美化教程&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;注意事项&quot;&gt;&lt;a href=&quot;#注意事项&quot; class=&quot;headerlink&quot; title=&quot;注意事项&quot;&gt;&lt;/a&gt;注意事项&lt;/h2&gt;&lt;h3 id=&quot;配置文件的位置&quot;&gt;&lt;a href=&quot;#配置文件的位置&quot; class=&quot;headerlink&quot; title=&quot;配置文件的位置&quot;&gt;&lt;/a&gt;配置文件的位置&lt;/h3&gt;&lt;p&gt;接下来我将会以&lt;code&gt;站点配置文件&lt;/code&gt;和&lt;code&gt;主题配置文件&lt;/code&gt;来说明两个需要使用的文件，如下：&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网站建设" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
+    
+    <category term="基础教程" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Hexo" scheme="https://www.dreamfty.top/tags/Hexo/"/>
+    
+    <category term="NexT" scheme="https://www.dreamfty.top/tags/NexT/"/>
     
   </entry>
   
