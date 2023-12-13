@@ -1,6 +1,166 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hexo+Github搭建免费博客｜基础教程(二)：NexT 主题基本美化｜全网最细致全面的教程（持续更新中）</title>
+    <url>/posts/56587.html</url>
+    <content><![CDATA[<blockquote>
+<p>在<a href="https://www.mirafcy.top/posts/27998.html">Hexo+NexT主题搭建 </a>中我们已经学会了如何使用 Github 搭建 Hexo 博客了，那么在接下来的这篇文章中我将会介绍一下 Hexo 的基础使用与美化教程</p>
+</blockquote>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><h3 id="配置文件的位置"><a href="#配置文件的位置" class="headerlink" title="配置文件的位置"></a>配置文件的位置</h3><p>接下来我将会以<code>站点配置文件</code>和<code>主题配置文件</code>来说明两个需要使用的文件，如下：</p>
+<ul>
+<li><p>站点配置文件</p>
+<p>你博客目录下的<code>_config.yml</code>，例如我的站点配置文件就是<code>D:\GithubBlog\MyBlog</code>的<code>_config.yml</code>文件</p>
+</li>
+<li><p>主题配置文件</p>
+<p>主题文件夹下的<code>_config.yml</code>，例如我的站点配置文件就是<code>D:\GithubBlog\MyBlog\themes\next</code>的<code>_config.yml</code>文件</p>
+</li>
+</ul>
+<h3 id="空格问题"><a href="#空格问题" class="headerlink" title="空格问题"></a>空格问题</h3><p><span class="github-emoji"><span>⭐</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span><strong>注意</strong>：编辑代码文件时，例如<code>_config.yml</code>文件，必须使用<em>英文输入状态下</em>的冒号，并且冒号后面必须有一个空格，否则会出现错误，例如<code>language: zh-Hans</code></p>
+<h3 id="部署问题"><a href="#部署问题" class="headerlink" title="部署问题"></a>部署问题</h3><ol>
+<li>每次使用</li>
+<li>建议每次更改 Hexo 文件后，使用<code>hexo g</code>与<code>hexo s</code>进行编译与运行，并在<code>http://localhost:4000</code>中查看更改，确认更改无误后使用<code>hexo d</code>上传至网页<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">清除缓存: hexo clean</span><br><span class="line">生成: hexo g</span><br><span class="line">预览:  hexo s</span><br><span class="line">部署:  hexo d</span><br></pre></td></tr></tbody></table></figure>
+其他详见<a href="https://www.dreamfty.top/posts/9921.html">Hexo 常用命令</a></li>
+</ol>
+<h2 id="使用基础"><a href="#使用基础" class="headerlink" title="使用基础"></a>使用基础</h2><h3 id="更换内置主题"><a href="#更换内置主题" class="headerlink" title="更换内置主题"></a>更换内置主题</h3><p>在<code>Schemes</code>下可以看到这些主题，去掉想要的主题前面的 # 即可</p>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line"># Schemes</span><br><span class="line">#scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">scheme: Pisces</span><br><span class="line">#scheme: Gemini</span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="更换语言"><a href="#更换语言" class="headerlink" title="更换语言"></a>更换语言</h3><p>NexT支持多种语言，只需编辑<strong>站点配置文件</strong>下的 language 设置</p>
+<table>
+<thead>
+<tr>
+<th>语言</th>
+<th>代码</th>
+<th>设定示例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>English</td>
+<td>en</td>
+<td>language: en</td>
+</tr>
+<tr>
+<td>简体中文</td>
+<td>zh-CN（注：zh-Hans已经无法使用）</td>
+<td>language: zh-CN</td>
+</tr>
+<tr>
+<td>Frangais</td>
+<td>fr-FR</td>
+<td>language: fr-FR</td>
+</tr>
+<tr>
+<td>Portugues</td>
+<td>pt</td>
+<td>language: pt<br>或者<br>language:pt-BR</td>
+</tr>
+<tr>
+<td>繁體中文</td>
+<td>zh-hk<br>或者<br>zh-tw</td>
+<td>language: zh-hk</td>
+</tr>
+<tr>
+<td>Pycckmi 93bIK</td>
+<td>ru</td>
+<td>language: ru</td>
+</tr>
+<tr>
+<td>Deutsch</td>
+<td>de</td>
+<td>language: de</td>
+</tr>
+<tr>
+<td>日本語</td>
+<td>ja</td>
+<td>language: ja</td>
+</tr>
+<tr>
+<td>Indonesian</td>
+<td>id</td>
+<td>language: id</td>
+</tr>
+<tr>
+<td>Korean</td>
+<td>ko</td>
+<td>language: ko</td>
+</tr>
+</tbody></table>
+<h3 id="菜单"><a href="#菜单" class="headerlink" title="菜单"></a>菜单</h3><h4 id="增加菜单项目"><a href="#增加菜单项目" class="headerlink" title="增加菜单项目"></a>增加菜单项目</h4><p>NexT默认的菜单项有6个，初始只有<code>home</code>和<code>archives</code>，剩余菜单项需要在<strong>主题配置文件</strong>中的<code>menu</code>中编辑以开启。</p>
+<p>初始状态如下：</p>
+<figure class="highlight gradle"><table><tbody><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: / || home</span><br><span class="line">  #about: <span class="regexp">/about/</span> || user</span><br><span class="line">  #tags: <span class="regexp">/tags/</span> || tags</span><br><span class="line">  #categories: <span class="regexp">/categories/</span> || th</span><br><span class="line">  archives: <span class="regexp">/archives/</span> || archive</span><br><span class="line">  #schedule: <span class="regexp">/schedule/</span> || calendar</span><br><span class="line">  #sitemap: /sitemap.xml || sitemap</span><br><span class="line">  #commonweal: <span class="regexp">/404/</span> || heartbeat</span><br></pre></td></tr></tbody></table></figure>
+
+<p>新建菜单的步骤：</p>
+<ol>
+<li><p>将你想要的菜单选项前的注释 # 去掉，这里以<code>tags</code>为例。</p>
+<figure class="highlight gradle"><table><tbody><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: / || home</span><br><span class="line">  #about: <span class="regexp">/about/</span> || user</span><br><span class="line">  tags: <span class="regexp">/tags/</span> || tags</span><br><span class="line">  #categories: <span class="regexp">/categories/</span> || th</span><br><span class="line">  archives: <span class="regexp">/archives/</span> || archive</span><br><span class="line">  #schedule: <span class="regexp">/schedule/</span> || calendar</span><br><span class="line">  #sitemap: /sitemap.xml || sitemap</span><br><span class="line">  #commonweal: <span class="regexp">/404/</span> || heartbeat</span><br></pre></td></tr></tbody></table></figure>
+
+</li>
+<li><p>在<code>Git Bash</code>执行下列命令，新建页面<code>tags</code>：<code>hexo new page "tags"</code></p>
+</li>
+<li><p>完成2后<code>Myblog/source/</code>中会出现<code>tags</code>目录，该目录下有<code>index.md</code>文件，文件内容如下：</p>
+<figure class="highlight apache"><table><tbody><tr><td class="code"><pre><span class="line"><span class="attribute">title</span>: tags</span><br><span class="line"><span class="attribute">date</span>: <span class="number">2019</span>-<span class="number">02</span>-<span class="number">18</span> <span class="number">16</span>:<span class="number">40</span>:<span class="number">41</span></span><br></pre></td></tr></tbody></table></figure>
+</li>
+<li><p>在<code>date</code>字段下添加：<code>type: tags</code></p>
+</li>
+</ol>
+<p>  tags 的使用方法详见<a href="https://www.dreamfty.top/posts/9921.html">Hexo 常用命令</a></p>
+<p>####设置菜单名称<br>打开<code>next/languages/zh-CN.yml</code>，更改以下字段</p>
+<figure class="highlight dts"><table><tbody><tr><td class="code"><pre><span class="line"><span class="symbol">menu:</span></span><br><span class="line"><span class="symbol">  home:</span> 首页</span><br><span class="line"><span class="symbol">  archives:</span> 归档</span><br><span class="line"><span class="symbol">  categories:</span> 分类</span><br><span class="line"><span class="symbol">  tags:</span> 标签</span><br><span class="line"><span class="symbol">  about:</span> 关于</span><br><span class="line"><span class="symbol">  search:</span> 搜索</span><br><span class="line"><span class="symbol">  commonweal:</span> 公益<span class="number">404</span></span><br><span class="line"><span class="symbol">  something:</span> 有料</span><br></pre></td></tr></tbody></table></figure>
+<p>例如你要将 about 的翻译“关于”改为“关于我”，直接更改为“about: 关于我”即可</p>
+<h4 id="添加个人介绍——关于"><a href="#添加个人介绍——关于" class="headerlink" title="添加个人介绍——关于"></a>添加个人介绍——关于</h4><blockquote>
+<p>要先添加 about 菜单</p>
+</blockquote>
+<p>打开<code>\source\about</code>下的<code>index.md</code>文件，在最后一个空行(即<code>---</code>的下方)添加你显示的个人信息。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/dreamFTY/Photo@main/hexo%E5%85%B3%E4%BA%8E%E6%88%91" alt="about"></p>
+<h4 id="添加额外菜单栏并显示多篇文章"><a href="#添加额外菜单栏并显示多篇文章" class="headerlink" title="添加额外菜单栏并显示多篇文章"></a>添加额外菜单栏并显示多篇文章</h4><blockquote>
+<p>假设你现在需要添加一个“日记”的菜单栏，步骤如下：</p>
+</blockquote>
+<ol>
+<li><p>在<code>Git Bash</code>执行下列命令，新建页面<code>diary</code>：<code>hexo new page "diary"</code></p>
+</li>
+<li><p>完成2后<code>Myblog/source/</code>中会出现<code>tags</code>目录，该目录下有<code>index.md</code>文件，文件内容如下：</p>
+<figure class="highlight apache"><table><tbody><tr><td class="code"><pre><span class="line"><span class="attribute">title</span>: diary</span><br><span class="line"><span class="attribute">date</span>: <span class="number">2019</span>-<span class="number">02</span>-<span class="number">18</span> <span class="number">16</span>:<span class="number">40</span>:<span class="number">41</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>在<code>date</code>字段下添加：<code>type: diary</code></p>
+</li>
+<li><p>打开<code>Myblog\themes\next\languages</code>，找到<code>zh-CN.yml</code>。在 Menu字段下添加<code>schedule: 日记</code>，这样你的网站菜单栏就会显示“日记”项。</p>
+</li>
+<li><p>为了能让菜单显示<strong>多篇文章</strong>，就需要借用<code>categories</code>的分类功能</p>
+<p>假设 <code>_post</code> 目录下有几篇文章想放到该菜单下，将这些文章移至<strong>新建</strong>文件夹 <code>diary</code></p>
+</li>
+<li><p>打开<code>主题配置文件</code>，找到<code>menu</code>字段，添加<code>日记: //categories/日记/ || fa fa-inbox</code></p>
+</li>
+<li><p>上传至github page后，就会发现博客的“日记”页面如下图所示。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/dreamFTY/Photo@main/%E9%A2%9D%E5%A4%96%E8%8F%9C%E5%8D%95%E6%A0%8F" alt="额外菜单栏"></p>
+</li>
+<li><p>点开目录菜单后，会发现多了一个分类 schedule，点击后也会跳转至本页面。</p>
+</li>
+</ol>
+<h4 id="修改菜单栏图标"><a href="#修改菜单栏图标" class="headerlink" title="修改菜单栏图标"></a>修改菜单栏图标</h4><ol>
+<li>打开<code>主题配置文件</code>，找到<code>menu</code>字段</li>
+<li>以<code>about</code>菜单项为例，可以看到<code>about: /about/ || fa fa-user</code>这一行，其中<code>||</code>后面的<code>fa fa-user</code>即为本菜单项的图标</li>
+<li>如果需要更改图标，可以进入<a href="https://fontawesome.dashgame.com/">Font Awesome</a>获取新图标，只需将文件改为“fa + 复制的图标”即可</li>
+</ol>
+<p>###去除底部“由 Hexo 强力驱动“</p>
+<p>打开<code>主题配置文件</code>，找到<code>Powered by Hexo &amp; NexT</code>字段，将<code>powered: true</code>改为<code>powered: false</code></p>
+<h3 id="设置个人头像"><a href="#设置个人头像" class="headerlink" title="设置个人头像"></a>设置个人头像</h3><p>在<code>主题配置文件</code>中找到如下代码：</p>
+<figure class="highlight yaml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment"># Sidebar Avatar</span></span><br><span class="line"><span class="attr">avatar:</span></span><br><span class="line">  <span class="comment"># Replace the default image and set the url here.</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">/images/头像名.后缀</span></span><br><span class="line">  <span class="comment"># If true, the avatar will be dispalyed in circle.</span></span><br><span class="line">  <span class="attr">rounded:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># If true, the avatar will be rotated with the cursor.</span></span><br><span class="line">  <span class="attr">rotated:</span> <span class="literal">true</span></span><br></pre></td></tr></tbody></table></figure>
+
+<ul>
+<li><code>url</code>后接头像路径，一般将图片放在<code>\MyBlog\themes\next\source\images</code>下，并修改<code>头像名.后缀</code>即可</li>
+<li><code>rounded</code>即以<strong>圆圈</strong>方式显示头像</li>
+<li><code>rotated</code>即为当鼠标放置在头像上时头像会<strong>旋转</strong></li>
+</ul>
+]]></content>
+      <categories>
+        <category>网站建设</category>
+        <category>基础教程</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>NexT</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo+Github搭建免费博客｜基础教程(一)：Hexo+NexT主题搭建｜全网最细致全面的教程（持续更新中）</title>
     <url>/posts/27998.html</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote>
@@ -176,125 +336,6 @@ Hexo 的相关快捷指令可以去<a href="https://www.dreamfty.top/wang-zhan-j
       <tags>
         <tag>工具</tag>
         <tag>效率</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo+Github搭建免费博客｜基础教程(二)：NexT 主题基本美化｜全网最细致全面的教程（持续更新中）</title>
-    <url>/posts/56587.html</url>
-    <content><![CDATA[<blockquote>
-<p>在<a href="https://www.mirafcy.top/posts/27998.html">Hexo+NexT主题搭建 </a>中我们已经学会了如何使用 Github 搭建 Hexo 博客了，那么在接下来的这篇文章中我将会介绍一下 Hexo 的基础使用与美化教程</p>
-</blockquote>
-<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><h3 id="配置文件的位置"><a href="#配置文件的位置" class="headerlink" title="配置文件的位置"></a>配置文件的位置</h3><p>接下来我将会以<code>站点配置文件</code>和<code>主题配置文件</code>来说明两个需要使用的文件，如下：</p>
-<span id="more"></span>
-
-<ul>
-<li><p>站点配置文件</p>
-<p>你博客目录下的<code>_config.yml</code>，例如我的站点配置文件就是<code>D:\GithubBlog\MyBlog</code>的<code>_config.yml</code>文件</p>
-</li>
-<li><p>主题配置文件</p>
-<p>主题文件夹下的<code>_config.yml</code>，例如我的站点配置文件就是<code>D:\GithubBlog\MyBlog\themes\next</code>的<code>_config.yml</code>文件</p>
-</li>
-</ul>
-<h3 id="空格问题"><a href="#空格问题" class="headerlink" title="空格问题"></a>空格问题</h3><p><span class="github-emoji"><span>⭐</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span><strong>注意</strong>：编辑代码文件时，例如<code>_config.yml</code>文件，必须使用<em>英文输入状态下</em>的冒号，并且冒号后面必须有一个空格，否则会出现错误，例如<code>language: zh-Hans</code></p>
-<h3 id="部署问题"><a href="#部署问题" class="headerlink" title="部署问题"></a>部署问题</h3><ol>
-<li>每次使用</li>
-<li>建议每次更改 Hexo 文件后，使用<code>hexo g</code>与<code>hexo s</code>进行编译与运行，并在<code>http://localhost:4000</code>中查看更改，确认更改无误后使用<code>hexo d</code>上传至网页<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">清除缓存: hexo clean</span><br><span class="line">生成: hexo g</span><br><span class="line">预览:  hexo s</span><br><span class="line">部署:  hexo d</span><br></pre></td></tr></tbody></table></figure>
-其他详见<a href="https://www.dreamfty.top/posts/9921.html">Hexo 常用命令</a></li>
-</ol>
-<h2 id="使用基础"><a href="#使用基础" class="headerlink" title="使用基础"></a>使用基础</h2><h3 id="更换语言"><a href="#更换语言" class="headerlink" title="更换语言"></a>更换语言</h3><p>NexT支持多种语言，只需编辑<strong>站点配置文件</strong>下的 language 设置</p>
-<table>
-<thead>
-<tr>
-<th>语言</th>
-<th>代码</th>
-<th>设定示例</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>English</td>
-<td>en</td>
-<td>language: en</td>
-</tr>
-<tr>
-<td>简体中文</td>
-<td>zh-CN（注：zh-Hans已经无法使用）</td>
-<td>language: zh-CN</td>
-</tr>
-<tr>
-<td>Frangais</td>
-<td>fr-FR</td>
-<td>language: fr-FR</td>
-</tr>
-<tr>
-<td>Portugues</td>
-<td>pt</td>
-<td>language: pt<br>或者<br>language:pt-BR</td>
-</tr>
-<tr>
-<td>繁體中文</td>
-<td>zh-hk<br>或者<br>zh-tw</td>
-<td>language: zh-hk</td>
-</tr>
-<tr>
-<td>Pycckmi 93bIK</td>
-<td>ru</td>
-<td>language: ru</td>
-</tr>
-<tr>
-<td>Deutsch</td>
-<td>de</td>
-<td>language: de</td>
-</tr>
-<tr>
-<td>日本語</td>
-<td>ja</td>
-<td>language: ja</td>
-</tr>
-<tr>
-<td>Indonesian</td>
-<td>id</td>
-<td>language: id</td>
-</tr>
-<tr>
-<td>Korean</td>
-<td>ko</td>
-<td>language: ko</td>
-</tr>
-</tbody></table>
-<h3 id="设置菜单连接"><a href="#设置菜单连接" class="headerlink" title="设置菜单连接"></a>设置菜单连接</h3><p>NexT默认的菜单项有6个，初始只有<code>home</code>和<code>archives</code>，剩余菜单项需要在<strong>主题配置文件</strong>中的<code>menu</code>中编辑以开启。</p>
-<p>初始状态如下：</p>
-<figure class="highlight gradle"><table><tbody><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: / || home</span><br><span class="line">  #about: <span class="regexp">/about/</span> || user</span><br><span class="line">  #tags: <span class="regexp">/tags/</span> || tags</span><br><span class="line">  #categories: <span class="regexp">/categories/</span> || th</span><br><span class="line">  archives: <span class="regexp">/archives/</span> || archive</span><br><span class="line">  #schedule: <span class="regexp">/schedule/</span> || calendar</span><br><span class="line">  #sitemap: /sitemap.xml || sitemap</span><br><span class="line">  #commonweal: <span class="regexp">/404/</span> || heartbeat</span><br></pre></td></tr></tbody></table></figure>
-
-<p>新建菜单的步骤：</p>
-<ol>
-<li><p>将你想要的菜单选项前的注释 # 去掉，这里以<code>tags</code>为例。</p>
-<figure class="highlight dts"><table><tbody><tr><td class="code"><pre><span class="line"><span class="symbol">menu:</span></span><br><span class="line"><span class="symbol">  home:</span> / || home</span><br><span class="line">  <span class="meta">#about: /about/ || user</span></span><br><span class="line"><span class="symbol">  tags:</span> <span class="keyword">/tags/</span> || tags</span><br><span class="line">  <span class="meta">#categories: /categories/ || th</span></span><br><span class="line"><span class="symbol">  archives:</span> <span class="keyword">/archives/</span> || archive</span><br><span class="line">  <span class="meta">#schedule: /schedule/ || calendar</span></span><br><span class="line">  <span class="meta">#</span></span><br><span class="line"><span class="symbol">sitemap:</span> /sitemap.xml || sitemap</span><br><span class="line">  <span class="meta">#commonweal: /404/ || heartbeat</span></span><br></pre></td></tr></tbody></table></figure>
-
-</li>
-<li><p>在<code>Git Bash</code>执行下列命令，新建页面<code>tags</code>：<br><code>hexo new page "tags"</code></p>
-</li>
-<li><p>完成2后<code>Myblog/source/</code>中会出现<code>tags</code>目录，该目录下有<code>index.md</code>文件，文件内容如下：</p>
-<figure class="highlight apache"><table><tbody><tr><td class="code"><pre><span class="line"><span class="attribute">title</span>: tags</span><br><span class="line"><span class="attribute">date</span>: <span class="number">2019</span>-<span class="number">02</span>-<span class="number">18</span> <span class="number">16</span>:<span class="number">40</span>:<span class="number">41</span></span><br></pre></td></tr></tbody></table></figure>
-</li>
-<li><p>在<code>date</code>字段下添加：<code>type: tags</code><br>tags 的使用方法详见<a href="https://www.dreamfty.top/posts/9921.html">Hexo 常用命令</a></p>
-</li>
-</ol>
-<p>###设置菜单名称<br>打开<code>next/languages/zh-CN.yml</code>，更改以下字段</p>
-<figure class="highlight dts"><table><tbody><tr><td class="code"><pre><span class="line"><span class="symbol">menu:</span></span><br><span class="line"><span class="symbol">  home:</span> 首页</span><br><span class="line"><span class="symbol">  archives:</span> 归档</span><br><span class="line"><span class="symbol">  categories:</span> 分类</span><br><span class="line"><span class="symbol">  tags:</span> 标签</span><br><span class="line"><span class="symbol">  about:</span> 关于</span><br><span class="line"><span class="symbol">  search:</span> 搜索</span><br><span class="line"><span class="symbol">  commonweal:</span> 公益<span class="number">404</span></span><br><span class="line"><span class="symbol">  something:</span> 有料</span><br></pre></td></tr></tbody></table></figure>
-<p>例如你要将 about 的翻译“关于”改为“关于我”，直接更改为“about: 关于我”即可</p>
-<p>###去除底部“由 Hexo 强力驱动“</p>
-<p>打开<code>主题配置文件</code>，找到<code>Powered by Hexo &amp; NexT</code>字段，将<code>powered: true</code>改为<code>powered: false</code></p>
-<h3 id="添加个人介绍——关于"><a href="#添加个人介绍——关于" class="headerlink" title="添加个人介绍——关于"></a>添加个人介绍——关于</h3><blockquote>
-<p>要先添加 about 菜单<br>打开<code>\source\about</code>下的<code>index.md</code>文件，在最后一个空行(即<code>---</code>的下方)添加你显示的个人信息</p>
-</blockquote>
-<about></about>]]></content>
-      <categories>
-        <category>网站建设</category>
-        <category>基础教程</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>NexT</tag>
       </tags>
   </entry>
   <entry>
