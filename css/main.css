@@ -1276,7 +1276,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #7820ff;
+  background: #034e49;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2878,4 +2878,18 @@ mjx-container + br {
 }
 .post-body img {
   border-radius: 1em;
+}
+.links-of-recent-posts {
+  font-size: 0.8125em;
+  margin-top: 10px;
+}
+.links-of-recent-posts-title {
+  font-size: 1.03em;
+  font-weight: 600;
+  margin-top: 0;
+}
+.links-of-recent-posts-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
