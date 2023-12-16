@@ -129,7 +129,7 @@
 <ol>
 <li><p>在<code>Git Bash</code>执行下列命令，新建页面<code>diary</code>：<code>hexo new page "diary"</code></p>
 </li>
-<li><p>完成2后<code>Myblog/source/</code>中会出现<code>tags</code>目录，该目录下有<code>index.md</code>文件，文件内容如下：</p>
+<li><p>完成后<code>Myblog/source/</code>中会出现<code>tags</code>目录，该目录下有<code>index.md</code>文件，文件内容如下：</p>
 <figure class="highlight apache"><table><tbody><tr><td class="code"><pre><span class="line"><span class="attribute">title</span>: diary</span><br><span class="line"><span class="attribute">date</span>: <span class="number">2019</span>-<span class="number">02</span>-<span class="number">18</span> <span class="number">16</span>:<span class="number">40</span>:<span class="number">41</span></span><br></pre></td></tr></tbody></table></figure>
 
 <p>在<code>date</code>字段下添加：<code>type: diary</code></p>
