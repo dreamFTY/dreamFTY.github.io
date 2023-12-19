@@ -6,7 +6,7 @@
   <link href="https://www.dreamfty.top/atom.xml" rel="self"/>
   
   <link href="https://www.dreamfty.top/"/>
-  <updated>2023-12-16T13:50:59.387Z</updated>
+  <updated>2023-12-19T13:29:06.682Z</updated>
   <id>https://www.dreamfty.top/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo+Github Page+NexT搭建免费博客</title>
+    <link href="https://www.dreamfty.top/posts/12507.html"/>
+    <id>https://www.dreamfty.top/posts/12507.html</id>
+    <published>2023-12-18T16:00:00.000Z</published>
+    <updated>2023-12-19T13:29:06.682Z</updated>
+    
+    
+    <summary type="html">使用Hexo搭建工具与Github Page联动,搭建免费好看的个人博客。教程全面仔细，0基础也可轻松上手！</summary>
+    
+    
+    
+    <category term="网站建设" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
+    
+    <category term="基础教程" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Hexo" scheme="https://www.dreamfty.top/tags/Hexo/"/>
+    
+    <category term="NexT主题" scheme="https://www.dreamfty.top/tags/NexT%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
   
   <entry>
     <title>PPT 数字滚动效果</title>
@@ -69,34 +92,11 @@
   </entry>
   
   <entry>
-    <title>Hexo+Github Page+NexT搭建免费博客</title>
-    <link href="https://www.dreamfty.top/posts/27998.html"/>
-    <id>https://www.dreamfty.top/posts/27998.html</id>
-    <published>2023-10-19T16:00:00.000Z</published>
-    <updated>2023-12-16T13:50:24.761Z</updated>
-    
-    
-    <summary type="html">使用Hexo搭建工具与Github Page联动,搭建免费好看的个人博客。教程全面仔细，0基础也可轻松上手！</summary>
-    
-    
-    
-    <category term="网站建设" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
-    
-    <category term="基础教程" scheme="https://www.dreamfty.top/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="Hexo" scheme="https://www.dreamfty.top/tags/Hexo/"/>
-    
-    <category term="NexT 主题" scheme="https://www.dreamfty.top/tags/NexT-%E4%B8%BB%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo+Github搭建免费博客｜NexT 主题基本美化</title>
     <link href="https://www.dreamfty.top/posts/56587.html"/>
     <id>https://www.dreamfty.top/posts/56587.html</id>
     <published>2023-10-19T16:00:00.000Z</published>
-    <updated>2023-12-16T13:50:09.083Z</updated>
+    <updated>2023-12-19T13:26:31.663Z</updated>
     
     
     <summary type="html">NexT主题的基本美化，实现增加菜单栏、更换图标和去除底部标识等</summary>
@@ -110,7 +110,7 @@
     
     <category term="Hexo" scheme="https://www.dreamfty.top/tags/Hexo/"/>
     
-    <category term="NexT" scheme="https://www.dreamfty.top/tags/NexT/"/>
+    <category term="NexT主题" scheme="https://www.dreamfty.top/tags/NexT%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
