@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Dream&#39;s Blog</title>
+  <title>Mirafcy&#39;s Blog</title>
   
   <subtitle>分享PPT技巧、编程学习和心得笔记</subtitle>
   <link href="https://www.dreamfty.top/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://www.dreamfty.top/</id>
   
   <author>
-    <name>Dream Fantasy</name>
+    <name>Mirafcy</name>
     
   </author>
   
