@@ -6,7 +6,7 @@
   <link href="https://www.dreamfty.top/atom.xml" rel="self"/>
   
   <link href="https://www.dreamfty.top/"/>
-  <updated>2023-12-19T13:29:06.682Z</updated>
+  <updated>2023-12-28T12:03:21.378Z</updated>
   <id>https://www.dreamfty.top/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>无需软件互传、拒绝缓慢同步｜打破Windows与Apple的文件同步局限</title>
+    <link href="https://www.dreamfty.top/posts/31946.html"/>
+    <id>https://www.dreamfty.top/posts/31946.html</id>
+    <published>2023-12-22T16:00:00.000Z</published>
+    <updated>2023-12-28T12:03:21.378Z</updated>
+    
+    
+    <summary type="html">无需使用聊天软件的文件互传，远离缓慢的同步软件，利用局域网在Windows与Apple产品间实现快捷迅速的文件互传</summary>
+    
+    
+    
+    <category term="效率与工具" scheme="https://www.dreamfty.top/categories/%E6%95%88%E7%8E%87%E4%B8%8E%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="同步与协同" scheme="https://www.dreamfty.top/categories/%E6%95%88%E7%8E%87%E4%B8%8E%E5%B7%A5%E5%85%B7/%E5%90%8C%E6%AD%A5%E4%B8%8E%E5%8D%8F%E5%90%8C/"/>
+    
+    
+    <category term="效率" scheme="https://www.dreamfty.top/tags/%E6%95%88%E7%8E%87/"/>
+    
+    <category term="同步" scheme="https://www.dreamfty.top/tags/%E5%90%8C%E6%AD%A5/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo+Github Page+NexT搭建免费博客</title>
