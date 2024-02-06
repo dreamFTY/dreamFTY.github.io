@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
-    <url>/posts/0.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>无需软件互传、拒绝缓慢同步｜打破Windows与Apple的文件同步局限</title>
     <url>/posts/31946.html</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>但我们需要在 Windows 和 Apple 设备间传输文件时，许多人会选择利用微信、QQ等聊天软件来发送文件，还有些人会利用 Windows内嵌的 iCloud进行同步。然而，前者的步骤虽然简单，却过于繁杂，需要打开软件，找到聊天窗口，找到文件，长按……；后者过于“抽风”，同步的速度时快时慢，有时候甚至还会直接“罢工” 。而作为一个双平台用户，我既不想下载多余的软件，更不想被同步的速度所困扰，那究竟怎样才能实现「无缝衔接」？</p>
